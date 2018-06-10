@@ -1,0 +1,7 @@
+header, footer{
+  background-color: #313131;
+}
+
+.row div {
+  border: 1px solid grey;
+}
