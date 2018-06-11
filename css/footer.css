@@ -1,0 +1,16 @@
+/*------useful colors----------
+dark black background: #383838
+black background: #3F3F3F
+
+tannish letters: #BDA87E
+grey letters: #ACACAC
+-------------------------------*/
+
+.box {
+   background-color: #383838;
+   color: #ACACAC;
+ }
+
+ .tan {
+   color: #BDA87E;
+ }

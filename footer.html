@@ -3,70 +3,80 @@
   <head>
     <meta charset="utf-8">
     <title>footer test</title>
+
+    <link rel="stylesheet" href="./css/bootstrap.css">
+
+    <!--Footer specific stylesheet --------------------------------------->
+    <link rel="stylesheet" href="./css/footer.css">
+    <!--End Footer specific stylesheet ----------------------------------->
+
   </head>
   <body>
 
 <!-- FOOTER ---------------------------------------------------------------->
-    <footer>
+    <footer class="box container-fluid">
 
-      <article>
-        <h3>NortSea About</h3>
-        <p>Lorem ipsum dolor sit amet,
-          consectetur adipisicing elit, sed do
-          eiusmod tempor incididunt ut
-          labore et dolore magna aliqua. Ut
-          enim ad minim veniam, quis nos-
-          trud exercitation ullamco laboris
-          nisi ut aliquip ex ea commodo
+      <div class="row row-main">
+
+        <article class="col-md-3">
+          <h3>NortSea About</h3>
+          <p>Lorem ipsum dolor sit amet,
+            consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut
+            labore et dolore magna aliqua. Ut
+            enim ad minim veniam, quis nos-
+            trud exercitation ullamco laboris
+            nisi ut aliquip ex ea commodo
+          </p>
+          <a href="about_us.html">Read More</a>
+        </article>
+
+        <section class="col-md-3">
+          <h3>NortSea Hotel</h3>
+          <a href="about_us.html"> About Us </a>
+          <a href="services.html"> Services </a> <!--double check this name after html created-->
+          <a href="contact.html"> Contact </a> <!--double check this name after html created-->
+        </section>
+
+        <table class="col-md-3">
+          <h3>Contact Us</h3>
+          <tr>
+            <td><!--address image--><img src="./assets/footer_address.png" alt="Address icon"></td>
+            <td class="tan">Address: </td>
+            <td>
+              1100 Pico Blvd
+              Santa Monica, CA 90405
+              United States
+            </td>
+          </tr>
+          <tr>
+            <td><!--phone image--><img src="./assets/footer_phone.png" alt="Phone icon"></td>
+            <td class="tan">Phone: </td>
+            <td>+440 1233123208</td>
+          </tr>
+          <tr>
+            <td><!--email image--><img src="./assets/footer_email.png" alt="Email icon"></td>
+            <td class="tan">Email: </td>
+            <td>support@nortsea.com</td>
+          </tr>
+          <tr>
+            <td><!--gps image--><img src="./assets/footer_gps.png" alt="GPS icon"></td>
+            <td class="tan">GPS: </td>
+            <td>12.021211-118.469009</td>
+          </tr>
+        </table>
+
+        <!--NortSea logo-->
+        <img src="./assets/logo-footer.png" alt="NortSea Hotel logo" class="col-md-3">
+      </div>
+
+      <section class="row row-copyright">
+        <p class="col-md-2">
+          Copyright &copy 2015 NortSea
         </p>
-        <a href="about.html">Read More</a>
-      </article>
-
-      <section>
-        <h3>NortSea Hotel</h3>
-        <a href="about.html"> About Us </a>
-        <a href="services.html"> Services </a>
-        <a href="contact.html"> Contact </a>
-      </section>
-
-      <table>
-        <h3>Contact Us</h3>
-        <tr>
-          <td><!--insert address image here--><img src="" alt=""></td>
-          <td>Address: </td>
-          <td>
-            1100 Pico Blvd
-            Santa Monica, CA 90405
-            United States
-          </td>
-        </tr>
-        <tr>
-          <td><!--insert phone image here--><img src="" alt=""></td>
-          <td>Phone: </td>
-          <td>+440 1233123208</td>
-        </tr>
-        <tr>
-          <td><!--insert paper airplane image here --><img src="" alt=""></td>
-          <td>Email: </td>
-          <td>support@nortsea.com</td>
-        </tr>
-        <tr>
-          <td><!--insert gps image here --><img src="" alt=""></td>
-          <td>GPS: </td>
-          <td>12.021211-118.469009</td>
-        </tr>
-      </table>
-
-      <!--insert NortSea logo here-->
-      <img src="" alt="NortSea Hotel logo">
-
-      <section>
-        <p>
-          Copyright <img src="" alt="copyright"> 2015 NortSea
-        </p>
-        <a href="about.html">About NORTSEA</a>
-        <a href="contact.html">Contact Support</a>
-        <p>Designed by Fatih34</p>
+        <a href="about_us.html" class="col-md-2">About NORTSEA</a>
+        <a href="contact.html"class="col-md-2">Contact Support</a>
+        <p class="col-md-2 col-md-offset-4">Designed by Fatih34</p>
       </section>
 
     </footer>
