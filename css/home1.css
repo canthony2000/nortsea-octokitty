@@ -1,0 +1,35 @@
+/*------useful colors----------
+dark black background: #313131
+black background: #3F3F3F
+
+tannish letters: #BDA87E
+grey letters: #ACACAC
+
+border-bottom color: rgba(68, 68, 68, .75)
+read-more grey: #636363
+
+background image: background-texture.png
+-------------------------------*/
+
+article > p {
+  color:#ACACAC;
+  font-weight: 200;
+}
+
+.previews {
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.center-block {
+  max-width: 25%;
+  text-align: center;
+}
+
+.light-tan {
+  color: #BDA87E;
+}
+
+#ASPC-5 {
+  background-image: ./assets/background-texture.png;
+}
