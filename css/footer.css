@@ -30,8 +30,10 @@ ul {
 }
 
 .footer-logo {
-  width: 15%;
-  margin: 0 auto;
+  margin-top: 80px;
+}
+.footer-logo img{
+  width: 50%;
 }
 
 .fa-caret-right {
