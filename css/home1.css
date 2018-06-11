@@ -31,5 +31,5 @@ article > p {
 }
 
 #ASPC-5 {
-  background-image: ./assets/background-texture.png;
+  background-image: url("../../NortSea_bootstrap-exercise/Project Assets/background-texture.png");
 }
