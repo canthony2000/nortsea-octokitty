@@ -1,14 +1,20 @@
 /*------useful colors----------
-dark black background: #383838
+dark black background: #313131
 black background: #3F3F3F
 
 tannish letters: #BDA87E
 grey letters: #ACACAC
 -------------------------------*/
 
+ul {
+  list-style-type: none;
+}
+
 .box {
-   background-color: #383838;
+   background-color: #313131;
    color: #ACACAC;
+   font-family: Helvetica, sans-serif;
+   font-size: 13px;
  }
 
  .tan {
@@ -16,5 +22,18 @@ grey letters: #ACACAC
  }
 
 .row-copyright {
-  background-color: #3F3F3F
+  background-color: #3F3F3F;
+}
+
+.fas, .far {
+  color: #BDA87A;
+}
+
+.footer-logo {
+  width: 15%;
+  margin: 0 auto;
+}
+
+.fa-caret-right {
+  color: #ACACAC;
 }
