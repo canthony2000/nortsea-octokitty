@@ -1,55 +1,38 @@
-<<<<<<< HEAD
-
-.box{
-=======
 .box {
->>>>>>> 749ba2beb3f5bace311411996cb179d5db51c20d
-  height: 100%;
   background-color: #313131;
   color: #D4CBCB;
   font-family: Helvetica, sans-serif;
   font-size: 14px;
-}
-
-<<<<<<< HEAD
-div .col-md-1{
-  width: inherit;
-}
-div .col-md-8{
-}
-.row{
-  margin-right: 0;
-}
-.main-row{
   padding: 0;
 }
-.row-top, .row-bottom{
-  margin-top: 10px;
-}
 
-
-.logo{
-  background-color: #fff;
-  text-align: right;
-}
-img{
-=======
 div .col-md-1 {
   width: inherit;
+  /* padding-left: 10px; */
+}
+div col-md-8{
+  padding: 0;
 }
 
 .row {
   margin-right: 0;
+
 }
 
-.main-row {
+.row .main-row {
   padding: 0;
 }
 
-.row-top, .row-bottom {
-  margin-top: 6px;
+.row-top {
+  margin-top: 15px;
   /* border: 1px solid red; */
   /* background-color: yellow; */
+}
+.row-bottom{
+  /* border: 1px solid white; */
+  margin-top: 10px;
+  margin-bottom: auto;
+  margin-left: 90px;
 }
 
 .logo {
@@ -58,8 +41,8 @@ div .col-md-1 {
 }
 
 img {
->>>>>>> 749ba2beb3f5bace311411996cb179d5db51c20d
   width: 25%;
+  /* border: 1px solid red; */
   background-color: #fff;
 }
 
@@ -67,62 +50,35 @@ i {
   height: 40px;
   padding: 13px 0;
 }
-<<<<<<< HEAD
-div .row-bottom:last-of-type i{
-=======
 
 div .row-bottom:last-of-type i {
->>>>>>> 749ba2beb3f5bace311411996cb179d5db51c20d
   height: 30px;
   padding-top: 5px;
 }
 
-<<<<<<< HEAD
-.envelope, .phone{
-  font-size: 12px;
-}
-
-.login,
-.language,
-.social-icons{
-  display: inline-block;
-  text-align: center;
-  border: 1px solid rgb(149, 161, 157);
-  border-radius: 1px;
-  margin-right: 10px;
-  text-transform: uppercase;
-}
-/* .social-icons{
-  text-align: justify !important;
-} */
-
-a{
-  text-decoration: none;
-  font-size: 11px;
-  color: inherit !important;
-  letter-spacing: 2px;
-}
-a:hover{
-  color:inherit;
-  text-decoration: none;
-}
-.row .menu-item{
-  text-align: left;
-}
-.animated{
-=======
 .envelope, .phone {
   padding-right: 20px;
   font-size: 12px;
 }
 
-.login, .language, .social-icons {
+.login,
+.language,
+.social-icons {
   display: inline-block;
   text-align: bottom;
   border: 1px solid rgb(149, 161, 157);
   border-radius: 1px;
   margin-right: 3px;
   text-transform: uppercase;
+}
+.login a,
+.language a{
+  padding-top: 12px;
+}
+
+.home{
+  height: 20px;
+  /* border: 1px solid red; */
 }
 
 a {
@@ -138,22 +94,14 @@ a:hover {
   text-decoration: none;
 }
 
-.row .menu-item {
-  /* text-align: left; */
-  /* display: inline-block; */
-}
 
 .animated {
->>>>>>> 749ba2beb3f5bace311411996cb179d5db51c20d
   width: 45px;
   height: 3px;
-  margin-top: 28px;
+  margin-top: 18px;
   background-color: white;
 }
-<<<<<<< HEAD
-=======
 
 /* #list{
   border: 1px solid red;
 } */
->>>>>>> 749ba2beb3f5bace311411996cb179d5db51c20d
