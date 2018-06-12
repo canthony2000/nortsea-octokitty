@@ -1,0 +1,119 @@
+/*------useful colors----------
+dark black background: #313131
+black background: #3F3F3F
+
+tannish letters: #BDA87E
+grey letters: #ACACAC
+-------------------------------*/
+
+.container-fluid{
+  background-color: #313131;
+  color: #fff;
+}
+.sale{
+  margin-top: 100px;
+  margin-bottom: 5px;
+  font-size: 30px;
+  font-weight: lighter;
+}
+.landing h1{
+  font-size: 2.5em;
+  font-family: Arial, sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  margin-top: 0;
+  margin-bottom: .5em;
+}
+.landing .btn{
+  border: 1px solid grey;
+  background-color: whitesmoke;
+  color: darkgrey;
+  text-transform: uppercase;
+  font-size: .7em;
+  letter-spacing: 1px;
+  border-radius: 0;
+}
+.side-panel{
+  padding-right: 0;
+  margin-top: 30px;
+  text-align: right;
+}
+.side-panel img{
+  width: 57%;
+  margin-bottom: 3px;
+}
+
+.dots img{
+  width: 50px;
+  margin-bottom: 20px;
+}
+.hotel-icon{
+  margin: 0 auto;
+}
+.hotel{
+  width: 100px;
+  height: 40px;
+  padding-top: 5px;
+  text-align: center;
+  color: #313131;
+  background-color: #fff;
+}
+div .booking{
+  font-family: Arial;
+  color: #313131;
+}
+
+div .booking-group .booking-item:nth-child(1){
+  margin-left: -10px;
+}
+
+div .booking .booking-group{
+  height: 100px;
+  margin-left: 10px;
+  margin-bottom: 30px;
+  background-color: #fff;
+}
+
+.booking-group button{
+  height: 35px;
+  font-size: .8em;
+  background-color: transparent;
+}
+
+button[type="button"]{
+  width: 100px;
+}
+button[type="text"]{
+  width: 70px;
+}
+
+div .booking-item{
+  font-size: .9em;
+  margin-top: 20px;
+  margin-right: 40px;
+}
+.booking-item i{
+  padding-left: 20px;
+}
+
+.booking-item .search-btn{
+  color: #fff;
+  width: 150px;
+  border-radius: 1px;
+  margin-top: 15px;
+  background-color: grey;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.booking-item .input-group input{
+  width: 60px;
+  font-size: .9em;
+}
+.input-group input,
+.input-group span{
+  border-radius: 0;
+}
+.input-group .input-group-addon i{
+  padding: 0;
+}

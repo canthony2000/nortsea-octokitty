@@ -48,8 +48,16 @@ footer .fas, .far {
   color: #636363;
 }
 
+<<<<<<< HEAD
+.footer-logo {
+  margin-top: 80px;
+}
+.footer-logo img{
+  width: 50%;
+=======
 .row-copyright {
   background-color: #3F3F3F;
+>>>>>>> develop
 }
 
 .tan {
