@@ -11,25 +11,39 @@ read-more grey: #636363
 background image: background-texture.png
 -------------------------------*/
 
+/* max-width must be set to use center-block class */
+
 article > p {
   color:#ACACAC;
   font-weight: 200;
 }
 
-.previews {
+.row {
   font-family: Helvetica, sans-serif;
   font-size: 14px;
+  text-align: center;
 }
 
-.center-block {
+.fun-articles {
   max-width: 25%;
-  text-align: center;
+}
+
+.main-article {
+  max-width: 50%;
 }
 
 .light-tan {
   color: #BDA87E;
 }
 
-#ASPC-5 {
+.about-article {
+  border: 5px solid #313131;
+  max-width: 33%;
+  margin: 2px;
+  padding: 2em 6em 0 6em;
+
+}
+
+.body-one-main {
   background-image: url("../../NortSea_bootstrap-exercise/Project Assets/background-texture.png");
 }
