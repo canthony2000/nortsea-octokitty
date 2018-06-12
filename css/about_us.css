@@ -1,0 +1,50 @@
+/* useful colors
+grey for circle: #E3E3E3
+*/
+/* don't use provided image for grey circle - use div with 50% radius and make it grey */
+
+.about-us-wrapper {
+  background-color: #3F3F3F;
+}
+
+.about-us-wrapper ul {
+  list-style-type: none;
+  color: #ACACAC;
+  font-size: .75em;
+}
+
+.about-us-main {
+  text-align: center;
+  padding: 8em;
+}
+
+.row {
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  text-align: center;
+}
+
+.fun-articles, .team-bio {
+  max-width: 25%;
+  margin-top: 2em;
+  padding: 2em;
+}
+
+.team-article {
+  text-align: center;
+}
+
+.team-bio img {
+  margin-top: 4em;
+}
+
+.team-icons {
+  color: #ACACAC;
+}
+
+.grey-circle {
+  background-color: #E3E3E3;
+  border-radius: 50%;
+  max-width: 75%;
+  height: 10em;
+}
