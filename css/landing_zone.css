@@ -16,8 +16,9 @@ grey letters: #ACACAC
   font-size: 30px;
   font-weight: lighter;
 }
-.landing h1{
+.landing-header{
   font-size: 2.5em;
+  color: #fff;
   font-family: Arial, sans-serif;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -116,4 +117,11 @@ div .booking-item{
 }
 .input-group .input-group-addon i{
   padding: 0;
+}
+/* dropdown menus */
+.dropdown:hover{
+  display: inline-block;
+}
+.dropdown-content{
+  display: none;
 }
