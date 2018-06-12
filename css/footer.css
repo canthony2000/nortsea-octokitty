@@ -4,10 +4,29 @@ black background: #3F3F3F
 
 tannish letters: #BDA87E
 grey letters: #ACACAC
+
+border-bottom color: rgba(68, 68, 68, .75)
+read-more grey: #636363
 -------------------------------*/
 
-ul {
+footer ul {
   list-style-type: none;
+}
+
+footer tr {
+  border-bottom: 1px solid rgba(68,68,68,.75);
+}
+
+footer td {
+  padding: 10px;
+}
+
+footer .fa-caret-right {
+  color: #ACACAC;
+}
+
+footer .fas, .far {
+  color: #BDA87A;
 }
 
 .box {
@@ -15,19 +34,8 @@ ul {
    color: #ACACAC;
    font-family: Helvetica, sans-serif;
    font-size: 13px;
+   font-weight: lighter;
  }
-
- .tan {
-   color: #BDA87E;
- }
-
-.row-copyright {
-  background-color: #3F3F3F;
-}
-
-.fas, .far {
-  color: #BDA87A;
-}
 
 .footer-logo {
   margin-top: 80px;
@@ -36,6 +44,23 @@ ul {
   width: 50%;
 }
 
-.fa-caret-right {
-  color: #ACACAC;
+.read-more {
+  color: #636363;
+}
+
+<<<<<<< HEAD
+.footer-logo {
+  margin-top: 80px;
+}
+.footer-logo img{
+  width: 50%;
+=======
+.row-copyright {
+  background-color: #3F3F3F;
+>>>>>>> develop
+}
+
+.tan {
+  color: #BDA87E;
+  text-align: right;
 }

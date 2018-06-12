@@ -1,20 +1,13 @@
 .header-box {
   color: #D4CBCB;
+  background-color: #3F3F3F;
   font-family: Helvetica, sans-serif;
   font-size: 14px;
   padding: 0;
 }
 
-div .col-md-1 {
+div .header-col-1 {
   width: inherit;
-}
-
-div col-md-8 {
-  padding: 0;
-}
-
-.row {
-  margin-right: 0;
 }
 
 .row .main-row {
@@ -37,12 +30,12 @@ div col-md-8 {
   text-align: right;
 }
 
-img {
+.logo img {
   width: 30%;
   margin-top: 35px;
 }
 
-i {
+.header-icon {
   height: 40px;
   padding: 13px 0;
 }
@@ -74,7 +67,8 @@ div .row-bottom:last-of-type i {
   height: 20px;
 }
 
-a {
+.login-a,
+.lang-a {
   display: inline-block;
   text-decoration: none;
   font-size: 11px;
