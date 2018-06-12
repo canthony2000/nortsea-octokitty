@@ -29,38 +29,37 @@ footer .fas, .far {
   color: #BDA87A;
 }
 
-.box {
+footer .box {
    background-color: #313131;
    color: #ACACAC;
    font-family: Helvetica, sans-serif;
-   font-size: 13px;
+   font-size: 8px;
    font-weight: lighter;
  }
 
-.footer-logo {
+footer .footer-logo {
   margin-top: 80px;
 }
 .footer-logo img{
   width: 50%;
 }
 
-.read-more {
+footer .read-more {
   color: #636363;
 }
 
-<<<<<<< HEAD
-.footer-logo {
+
+footer .footer-logo {
   margin-top: 80px;
 }
-.footer-logo img{
+footer .footer-logo img{
   width: 50%;
-=======
-.row-copyright {
+
+footer .row-copyright {
   background-color: #3F3F3F;
->>>>>>> develop
 }
 
-.tan {
+footer .tan {
   color: #BDA87E;
   text-align: right;
 }
