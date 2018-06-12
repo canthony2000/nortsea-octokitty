@@ -1,7 +1,45 @@
-header, footer{
-  background-color: #313131;
+/*------useful colors----------
+dark gray background: #363636;
+black (very dark gray) background: #313131;
+grey text: #acacac;
+gray text on dark background: #c8c8c8;
+dark gray text #464646;
+carrot text #c2c2c2;
+black: #000000;
+gold text: #c0a878;
+social media icons #d7d7d7;
+button: #7d7d7d;
+box borders #ebebeb;
+-------------------------------*/
+
+/* Global resets */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
-.row div {
-  border: 1px solid grey;
+header, footer{
+  background-color: #3F3F3F;
+}
+
+h1{
+  color: #c0a878;
+}
+
+h2{
+  color: #464646;
+}
+
+h3{
+  color: #c0a878;
+}
+
+p {
+  color: #acacac
+}
+
+.bg-dark-gray {
+  background-color: #363636;
+
 }

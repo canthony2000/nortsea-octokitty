@@ -1,20 +1,58 @@
 /*------useful colors----------
-dark black background: #383838
+dark black background: #313131
 black background: #3F3F3F
 
 tannish letters: #BDA87E
 grey letters: #ACACAC
+
+border-bottom color: rgba(68, 68, 68, .75)
+read-more grey: #636363
 -------------------------------*/
 
+footer ul {
+  list-style-type: none;
+}
+
+footer tr {
+  border-bottom: 1px solid rgba(68,68,68,.75);
+}
+
+footer td {
+  padding: 10px;
+}
+
+footer .fa-caret-right {
+  color: #ACACAC;
+}
+
+footer .fas, .far {
+  color: #BDA87A;
+}
+
 .box {
-   background-color: #383838;
+   background-color: #313131;
    color: #ACACAC;
+   font-family: Helvetica, sans-serif;
+   font-size: 13px;
+   font-weight: lighter;
  }
 
- .tan {
-   color: #BDA87E;
- }
+.footer-logo {
+  margin-top: 80px;
+}
+.footer-logo img{
+  width: 50%;
+}
+
+.read-more {
+  color: #636363;
+}
 
 .row-copyright {
-  background-color: #3F3F3F
+  background-color: #3F3F3F;
+}
+
+.tan {
+  color: #BDA87E;
+  text-align: right;
 }
