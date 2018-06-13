@@ -24,9 +24,6 @@
   text-align: center;
 }
 /***** gallery bottom *****/
-.gallery-background{
-  background-image: url("../assets/background-texture.png");
-}
 .gallery-bottom h4{
   margin: 30px 0;
 }

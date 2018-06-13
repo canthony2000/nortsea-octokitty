@@ -16,9 +16,10 @@ grey letters: #ACACAC
   font-size: 30px;
   font-weight: lighter;
 }
+
 .landing h1{
-  color: #fff;
   font-size: 2.5em;
+  color: #fff;
   font-family: Arial, sans-serif;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -26,6 +27,7 @@ grey letters: #ACACAC
   margin-top: 0;
   margin-bottom: .5em;
 }
+
 .landing .btn{
   border: 1px solid grey;
   background-color: whitesmoke;
@@ -117,6 +119,7 @@ div .booking-item{
 .input-group .input-group-addon i{
   padding: 0;
 }
+
 /* dropdowns in booking form */
 .dropdown:hover .dropdown-content{
   display: block;

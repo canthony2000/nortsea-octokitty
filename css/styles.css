@@ -17,6 +17,7 @@ box borders #ebebeb;
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	font-family: Helvetica, sans-serif;
 }
 
 header, footer{
@@ -25,6 +26,10 @@ header, footer{
 
 h1{
   color: #c0a878;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 36px;
+	text-align: center;
+	letter-spacing: 7px;
 }
 
 h2{
@@ -41,10 +46,19 @@ p {
 
 .bg-dark-gray {
   background-color: #363636;
-
 }
 
 .bg-texture {
-
   background-image: url("../assets/background-texture.png");
+}
+
+.nortsea-gold {
+	color: #c0a878;
+}
+
+.ns-p-italic {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 14px;
+	font-style: italic;
+	text-align: center;
 }
