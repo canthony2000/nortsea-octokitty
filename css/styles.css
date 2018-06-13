@@ -1,4 +1,4 @@
-/*------useful colors----------
+	/*------useful colors----------
 dark gray background: #363636;
 black (very dark gray) background: #313131;
 grey text: #acacac;
@@ -33,7 +33,7 @@ h1{
 }
 
 h2{
-  color: #464646;
+  /* color: #464646; */
 }
 
 h3{
