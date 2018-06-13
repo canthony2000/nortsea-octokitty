@@ -5,6 +5,9 @@
   font-size: 14px;
   padding: 0;
 }
+.landing-background{
+  background-color: #363636;
+}
 
 div .header-col-1 {
   width: inherit;
