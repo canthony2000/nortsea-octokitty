@@ -81,7 +81,7 @@ div .booking .booking-group{
   background-color: transparent;
 }
 
-button[type="button"]{
+.booking button[type="button"]{
   width: 100px;
 }
 button[type="text"]{
