@@ -50,31 +50,20 @@ box borders #ebebeb;
   width: 60px;
   margin: 5px 0;
 }
-<<<<<<< HEAD
 .news-icons{
   margin: 10px 0;
 }
-.news-icons i{
-=======
 
 .icons {
   margin: 10px 0;
 }
 
 .icons i {
->>>>>>> feature/news_sidebar
   margin-right: 10px;
   font-size: 1.5em;
   /* border: 1px solid red; */
 }
-<<<<<<< HEAD
-.news-icons > i:first-child{
-=======
 
 .fa-facebook-square {
->>>>>>> feature/news_sidebar
   color: #c0a878;
-}
-.news-height{
-  height: 600px;
 }
