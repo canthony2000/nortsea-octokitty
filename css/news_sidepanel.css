@@ -1,0 +1,45 @@
+
+.tabs-component{
+  background-color: #fff;
+  margin-top: 80px;
+}
+.tabs-component ul li{
+  text-align: center;
+}
+.active .popular-tab{
+  border-radius: 1px;
+  margin: 0;
+}
+.nav li{
+  width: 50%;
+  border-radius: 1px !important;
+}
+
+.tab-content {
+  border: 1px solid #d7d7d7;
+  border-top: transparent;
+  padding: 15px;
+}
+.tab-content hr{
+  margin: 10px auto;
+}
+.recent-tab{
+  width: 100%;
+  border-radius: 1px !important;
+  background-color: black;
+  border-radius: 1px;
+  color: white;
+}
+
+.popular-tab {
+  border-top: 3px solid #c0a878;
+  /* border-radius: 1px !important; */
+}
+.tab-pane time{
+  color: #7d7d7d;
+}
+.tab-pane p,
+.tab-pane time{
+  font-size: .9em;
+  margin: 0;
+}
