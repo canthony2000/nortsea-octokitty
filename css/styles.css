@@ -41,10 +41,12 @@ p {
 
 .bg-dark-gray {
   background-color: #363636;
-
 }
 
 .bg-texture {
-
   background-image: url("../assets/background-texture.png");
+}
+
+.nortsea-gold {
+	color: #c0a878;
 }
