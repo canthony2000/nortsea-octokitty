@@ -47,3 +47,8 @@ p {
 .nortsea-gold {
 	color: #c0a878;
 }
+
+.bg-texture {
+
+  background-image: url("../assets/background-texture.png");
+}
