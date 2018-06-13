@@ -1,0 +1,50 @@
+/*------useful colors----------
+dark gray background: #363636;
+black (very dark gray) background: #313131;
+grey text: #acacac;
+gray text on dark background: #c8c8c8;
+dark gray text #464646;
+carrot text #c2c2c2;
+black: #000000;
+gold text: #c0a878;
+social media icons #d7d7d7;
+button: #7d7d7d;
+box borders #ebebeb;
+burple icons #8d5ba1;
+-------------------------------*/
+
+.row {
+  margin-left: 0px;
+}
+
+.ns-breadcrumb{
+  text-align: right;
+  margin-top: 30px;
+}
+
+.s-ico-hotel-fac{
+  background-color: #8d5ba1;
+  text-align: center;
+  width: 43px;
+  padding: 10px 10px 10px 10px;
+  margin: 0px 10px 0px 0px;
+  border: 0px;
+  color: white;
+  font-size: 18px;
+}
+
+.s-fac-bracket-row {
+  height: 60px;
+  color: #c0a878;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 36px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.svcs-desc-2{
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
