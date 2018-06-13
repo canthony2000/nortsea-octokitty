@@ -37,9 +37,10 @@ footer .box {
    font-weight: lighter;
  }
 
-footer .footer-logo {
+.footer-logo {
   margin-top: 80px;
 }
+
 .footer-logo img{
   width: 50%;
 }
@@ -47,13 +48,6 @@ footer .footer-logo {
 footer .read-more {
   color: #636363;
 }
-
-
-footer .footer-logo {
-  margin-top: 80px;
-}
-footer .footer-logo img{
-  width: 50%;
 
 footer .row-copyright {
   background-color: #3F3F3F;
