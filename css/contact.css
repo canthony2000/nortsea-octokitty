@@ -14,8 +14,9 @@ box borders #ebebeb;
 
 input, textarea {
   width:100%;
-  border-width: 2px;
+  border-width: 1px;
   border-style: solid;
+  border-color: #ebebeb;
   margin: 1px;
   padding: 8px;
 }
@@ -51,7 +52,6 @@ button {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-
 }
 
 .no-l-pad {
@@ -66,7 +66,6 @@ button {
   text-align: right;
   margin-top: 30px;
 }
-
 
 .social-icons {
   display: inline-block;

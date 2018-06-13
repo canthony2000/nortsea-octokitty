@@ -26,6 +26,10 @@ header, footer{
 
 h1{
   color: #c0a878;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 36px;
+	text-align: center;
+	letter-spacing: 7px;
 }
 
 h2{
@@ -50,4 +54,11 @@ p {
 
 .nortsea-gold {
 	color: #c0a878;
+}
+
+.ns-p-italic {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 14px;
+	font-style: italic;
+	text-align: center;
 }
