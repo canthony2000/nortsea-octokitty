@@ -43,3 +43,8 @@ p {
   background-color: #363636;
 
 }
+
+.bg-texture {
+
+  background-image: url("../assets/background-texture.png");
+}
