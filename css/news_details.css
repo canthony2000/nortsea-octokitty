@@ -38,14 +38,14 @@ box borders #ebebeb;
   width: 60px;
   margin: 5px 0;
 }
-.icons{
+.news-icons{
   margin: 10px 0;
 }
-.icons i{
+.news-icons i{
   margin-right: 10px;
   font-size: 1.5em;
 }
-i:first-child{
+.news-icons > i:first-child{
   color: #c0a878;
 }
 .news-height{
