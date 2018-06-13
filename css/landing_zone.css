@@ -16,9 +16,14 @@ grey letters: #ACACAC
   font-size: 30px;
   font-weight: lighter;
 }
+<<<<<<< HEAD
 .landing h1{
   color: #fff;
+=======
+.landing-header{
+>>>>>>> feature/landing_zone
   font-size: 2.5em;
+  color: #fff;
   font-family: Arial, sans-serif;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -117,6 +122,7 @@ div .booking-item{
 .input-group .input-group-addon i{
   padding: 0;
 }
+<<<<<<< HEAD
 /* dropdowns in booking form */
 .dropdown:hover .dropdown-content{
   display: block;
@@ -131,5 +137,12 @@ div .booking-item{
   width: 30px;
   padding: 0 10px;
   background-color: #D3D4DD;
+=======
+/* dropdown menus */
+.dropdown:hover{
+  display: inline-block;
+}
+.dropdown-content{
+>>>>>>> feature/landing_zone
   display: none;
 }
