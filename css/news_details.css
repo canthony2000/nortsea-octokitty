@@ -48,3 +48,6 @@ box borders #ebebeb;
 i:first-child{
   color: #c0a878;
 }
+.news-height{
+  height: 600px;
+}
