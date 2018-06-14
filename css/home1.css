@@ -13,6 +13,8 @@ background image: background-texture.png
 
 /* max-width must be set to use center-block class */
 
+/* replace blue and green placeholder colors */
+
 article > p {
   color:#ACACAC;
   font-weight: 200;
@@ -56,4 +58,34 @@ section .about-article {
 .about-article h3{
   font-size: 1.3em;
   color: #3F3F3F;
+}
+
+.news-holder, .announcement-holder, .product-holder {
+  border: 1px solid #ACACAC;
+  margin: .5em;
+  padding: .5em;
+}
+
+.carousel-indicators {
+  top: .5em;
+  text-align: right;
+}
+
+.carousel-indicators li{
+  display: inline-block;
+  background-color: #ACACAC;
+  border: 1px solid #ACACAC;
+}
+
+.green {
+  color: green;
+}
+
+.blue {
+  color: blue;
+}
+
+.view-all {
+  color: #ACACAC;
+  border: 1px solid #ACACAC;
 }
