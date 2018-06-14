@@ -18,9 +18,28 @@
     <div class="row">
       <div class="col-md-2"></div>
       <div class="col-md-6 landing">
-        <p class="sale">35% Sale</p>
-        <h1 class="landing-header">You enter summer with refreshing rates</h1>
-        <p><a class="btn btn-lg" href="#">Explore it</a></p>
+
+        <!-- Carousel  -->
+        <div id="myCarousel" class="carousel slide landing-zone-carousel" data-ride="carousel">
+          <!-- Indicator dots-->
+          <ol class="carousel-indicators landing-zone-carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0"></li>
+            <li data-target="#myCarousel" class="active" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner landing-zone-carousel-inner">
+            <div class="item active news-item">
+              <p class="sale">35% Sale</p>
+              <h1 class="landing-header">You enter summer with refreshing rates</h1>
+              <p><a class="btn btn-lg" href="#">Explore it</a></p>
+            </div>
+          </div>
+        </div>
+        <!-- end of Carousel -->
       </div>
       <div class="col-md-2 side-panel">
         <img src="assets/weather-card.png" alt="">
@@ -28,12 +47,7 @@
         <img src="assets/360-virtual-tour.png" alt="">
       </div>
     </div>
-    <div class="row dots">
-      <div class="col-md-2"></div>
-      <div class="col-md-10 dots">
-        <img src="assets/indicator-dots.png" alt="">
-      </div>
-    </div>
+
     <div class="row hotel-icon">
       <div class="col-md-2"></div>
       <div class="col-md-8 hotel"><img src="assets/hotel-icon.png" alt=""> Hotel

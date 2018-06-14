@@ -34,7 +34,6 @@ article > p {
 }
 
 .main-article {
-  max-width: 75%;
   text-align: center;
 }
 
@@ -49,43 +48,74 @@ section .about-article {
 .about-article {
   border: 5px solid #313131;
   font-size: .75em;
-  max-width: 30%;
-  margin: 2px;
   padding: 2em 2em 0 2em;
-
+  width: 31%;
+  margin: 1%;
 }
 
 .about-article h3{
+  text-transform: uppercase;
+  font-weight: bold;
   font-size: 1.3em;
   color: #3F3F3F;
 }
 
-.news-holder, .announcement-holder, .product-holder {
+.news-holder,
+.announcement-holder,
+.product-holder {
   border: 1px solid #ACACAC;
-  margin: .5em;
-  padding: .5em;
+  margin-top: 20px;
+  /* padding: 1.5em; */
+  background-color: #fff;
 }
 
-.carousel-indicators {
+.home-2-carousel{
+  padding: 10px;
+}
+.home-2-carousel h5{
+  margin: 0;
+}
+
+#myCarousel .home-2-carousel-indicators {
   top: .5em;
   text-align: right;
 }
 
-.carousel-indicators li{
+#myCarousel .home-2-carousel-indicators li{
   display: inline-block;
   background-color: #ACACAC;
   border: 1px solid #ACACAC;
 }
 
 .green {
-  color: green;
+  color: rgb(79, 167, 102);
 }
 
 .blue {
-  color: blue;
+  color: rgb(32, 152, 219);
 }
 
 .view-all {
   color: #ACACAC;
   border: 1px solid #ACACAC;
+  margin-top: 60px;
+}
+
+/* Natalia */
+.news-holder-row{
+  margin-bottom: 20px;
+}
+.news-holder-row .news-holder{
+  width: 63%;
+}
+.news-holder-row .announcement-holder,
+.news-holder-row .product-holder{
+  font-size: .8em;
+  padding: 1.5em;
+  margin-left: 20px;
+  width: 100%
+}
+.calendar-row{
+  /* border: 1px solid red; */
+  padding: 5px;
 }
