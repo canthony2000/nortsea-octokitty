@@ -42,11 +42,27 @@ background image: background-texture.png
 }
 
 .img-center {
-  vertical-align: middle;
+  margin-top: 20%;
+}
+
+.news-article-previews {
+  background-color: lightgrey;
+  padding: 1em;
+  margin: 1em;
 }
 
 article .news-read-more {
   background-color: #BDA87E;
   color: #fff;
   border-radius: 0;
+}
+
+.black-preview {
+  background-color: black;
+  text-align: center;
+}
+
+.black-preview p {
+  font-size: 1em;
+  font-weight: bold;
 }
