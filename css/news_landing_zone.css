@@ -1,0 +1,52 @@
+/*------useful colors----------
+dark black background: #313131
+black background: #3F3F3F
+
+tannish letters: #BDA87E
+grey letters: #ACACAC
+
+border-bottom color: rgba(68, 68, 68, .75)
+read-more grey: #636363
+
+background image: background-texture.png
+-------------------------------*/
+
+.news-landing-carousel {
+  background-color: #313131;
+}
+
+.news-landing-carousel li{
+  display: inline-block;
+}
+
+.news-landing-carousel .carousel-indicators {
+  transform: rotate(90deg);
+  bottom: 1px;
+  width: 100%;
+  height:100%;
+  left: 60%;
+}
+
+.news-landing-carousel h5 {
+  color: #fff;
+}
+
+.news-landing-carousel h6 {
+  color: #ACACAC;
+}
+
+.bg-grey {
+  height: 10em;
+  background-color: #ACACAC;
+  text-align: center;
+}
+
+.img-center {
+  vertical-align: middle;
+}
+
+article .news-read-more {
+  background-color: #BDA87E;
+  color: #fff;
+  border-radius: 0;
+}

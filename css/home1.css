@@ -66,12 +66,12 @@ section .about-article {
   padding: .5em;
 }
 
-.carousel-indicators {
+.news-carousel .carousel-indicators {
   top: .5em;
   text-align: right;
 }
 
-.carousel-indicators li{
+.news-carousel .carousel-indicators li{
   display: inline-block;
   background-color: #ACACAC;
   border: 1px solid #ACACAC;
