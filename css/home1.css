@@ -69,27 +69,20 @@ section .about-article {
   background-color: #fff;
 }
 
-<<<<<<< HEAD
-.news-carousel .carousel-indicators {
-=======
 .home-2-carousel{
   padding: 10px;
 }
+
 .home-2-carousel h5{
   margin: 0;
 }
 
 #myCarousel .home-2-carousel-indicators {
->>>>>>> develop
   top: .5em;
   text-align: right;
 }
 
-<<<<<<< HEAD
-.news-carousel .carousel-indicators li{
-=======
 #myCarousel .home-2-carousel-indicators li{
->>>>>>> develop
   display: inline-block;
   background-color: #ACACAC;
   border: 1px solid #ACACAC;
@@ -107,15 +100,18 @@ section .about-article {
   color: #ACACAC;
   border: 1px solid #ACACAC;
   margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 /* Natalia */
 .news-holder-row{
   margin-bottom: 20px;
 }
+
 .news-holder-row .news-holder{
   width: 63%;
 }
+
 .news-holder-row .announcement-holder,
 .news-holder-row .product-holder{
   font-size: .8em;
@@ -123,6 +119,7 @@ section .about-article {
   margin-left: 20px;
   width: 100%
 }
+
 .calendar-row{
   /* border: 1px solid red; */
   padding: 5px;
