@@ -29,6 +29,8 @@ footer {
   border-top-color: #dbcdb2;
   border-width: 2px;
   border-style: solid;
+	padding-top: 20px;
+	padding-bottom: 30px;
 }
 
 h1{
