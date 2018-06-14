@@ -11,6 +11,9 @@ social media icons #d7d7d7;
 button: #7d7d7d;
 box borders #ebebeb;
 -------------------------------*/
+#ASPC-13{
+  height: 1000px;
+}
 .news h4 {
   font-size: 2em;
   font-weight: lighter;
@@ -84,4 +87,5 @@ box borders #ebebeb;
   background-color: #fff;
   padding: 30px;
   border: 1px solid #ebebeb;
+  margin-bottom: 20px;
 }
