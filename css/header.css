@@ -12,6 +12,11 @@
 div .header-col-1 {
   width: inherit;
 }
+.list-inline .header-col-1 a{
+  text-decoration: none;
+  color: #D4CBCB;
+}
+
 
 .row .main-row {
   padding: 0;
@@ -64,10 +69,6 @@ div .row-bottom:last-of-type i {
 
 .login a, .language a {
   padding-top: 12px;
-}
-
-.home {
-  height: 20px;
 }
 
 .login-a,
