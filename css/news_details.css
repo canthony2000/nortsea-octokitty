@@ -51,17 +51,12 @@ box borders #ebebeb;
   margin: 10px 0;
 }
 
-.icons {
-  margin: 10px 0;
-}
-
-.icons i {
+.news-icons i {
   margin-right: 10px;
   font-size: 1.5em;
-  /* border: 1px solid red; */
 }
 
-.fa-facebook-square {
+.news-icons .fa-facebook-square {
   color: #c0a878;
 }
 
