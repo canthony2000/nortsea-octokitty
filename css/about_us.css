@@ -15,20 +15,23 @@ grey for circle: #E3E3E3
 
 .about-us-main {
   text-align: center;
-  padding: 8em;
+  padding: 5em;
+  background-color: #313131;
 }
-/*
-.row {
-  font-family: Helvetica, sans-serif;
-  font-size: 14px;
-  text-align: center;
-} */
 
-.fun-articles, .team-bio {
+/* .fun-articles, .team-bio {
   max-width: 25%;
   margin-top: 2em;
   padding: 2em;
   text-align: center;
+} */
+
+.fun-articles, .team-bio {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding: 1em;
+  text-align: center;
+  max-width: 200px;
 }
 
 .team-article {
@@ -41,7 +44,7 @@ grey for circle: #E3E3E3
 }
 
 .team-bio img {
-  margin-top: 4em;
+  margin-top: 3.3em;
 }
 
 .team-icons {
@@ -51,6 +54,23 @@ grey for circle: #E3E3E3
 .grey-circle {
   background-color: #E3E3E3;
   border-radius: 50%;
-  max-width: 100%;
-  height: 12em;
+  height: 9em;
+  width: 9em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-us-desc-2{
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+footer{
+  padding-left: 15px;
+}
+
+.f-copyright-bg {
+  padding-left: 15px;
 }
