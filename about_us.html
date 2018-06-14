@@ -103,42 +103,43 @@
       </header>
       <!-- END OF HEADER ------------------------------------------------------>
 
-
-
-
-
 <!---Body Page Section-------------------------------------------------------------------------------------------------->
-      <div class="row">
+      <div class="row bg-dark-gray">
         <div class="col-md-2"></div>
-        <div class="col-md-8">
+          <div class="col-md-8">
           <!--About Us main article-------------------------------------------->
-          <section class="row about-us-wrapper">
-            <h3 class="col-md-2">About Us</h3>
-            <ul>
-              <li class="col-md-1 col-md-offset-6">Home &emsp;/ </li>
-              <li class="col-md-1">Pages &emsp; / </li>
-              <li class="col-md-2">About Us</li>
-            </ul>
-
-            <section class="about-us-main">
-              <h1>ABOUT US</h1>
-              <article>
-                <p>This is photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor
-                   aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec
-                   sagittis sem nibh id elid. Duis
-                </p>
-                <p>Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu
-                   in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-                   Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque
-                   elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum
-                   feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.
-                </p>
-              </article>
-            </section>
+          <div class="row">
+            <div class="col-md-6">
+              <h3>About Us</h3>
+            </div>
+            <div class="ns-breadcrumb col-md-6">
+              <p>Home  /  Pages  /  About Us</p>
+            </div>
+          </div>
+          <section class="about-us-main">
+            <h1>ABOUT US</h1>
+            <article>
+              <p class="ns-p-italic about-us-desc-2">This is photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor
+                 aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec
+                 sagittis sem nibh id elid. Duis
+              </p>
+              <p class="ns-p-italic">Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu
+                 in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                 Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque
+                 elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum
+                 feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.
+              </p>
+            </article>
           </section>
+          </div>
+        <div class="col-md-2"></div>
+      </div>
           <!--End About us main article---------------------------------------->
 
           <!-- Article previews ----------------------------------------------->
+        <div class="row">
+          <div class="col-md-2"></div>
+          <div class="col-md-8">
           <section class="row previews">
 
             <!-- Amazing Travel -->
@@ -309,18 +310,20 @@
           </section>
           <!--End Team--------------------------------------------------------->
         </div>
-        <div class="col-md-2">.</div>
+          <div class="col-md-2">.</div>
+        </div>
       </div>
+
+
+
+
 <!--Footer Page Section----------------------------------------------------------------------------------------------->
       <footer class="row">
         <div class="col-md-2"></div>
         <div class="col-md-8">
-
-<!--FOOTER ---------------------------------------------------------------->
+      <!--FOOTER ---------------------------------------------------------------->
           <div class="box" id="ASPC-3">
-
             <div class="row row-main">
-
               <!--About article preview and link-->
               <article class="col-md-3">
                 <h4>NortSea About</h4>
@@ -332,24 +335,21 @@
                   trud exercitation ullamco laboris
                   nisi ut aliquip ex ea commodo
                 </p>
-                <p class="read-more">Read More
+                <p class="read-more"><a href="about_us.html">Read More</a>
                   <!--arrow img-->
                   <i class="read-more fas fa-caret-right"></i>
                 </p>
               </article>
-
               <!--Hotel links section-->
               <ul class="col-md-3">
                 <h4>NortSea Hotel</h4>
-                <li> About Us </li>
-                <li> Services </li>
-                <li> Contact </li> <!--make into links?-->
+                <li><a href="about_us.html"> About Us </a></li>
+                <li><a href="services.html"> Services </a></li>
+                <li><a href="contact.html"> Contact </a></li> <!--make into links?-->
               </ul>
-
               <!--Contact section-->
               <section class="col-md-3">
                 <h4>Contact Us</h4>
-
                 <table>
                   <tr>
                     <td><!--address image--><i class="fas fa-map-marker-alt"></i></td>
@@ -368,7 +368,7 @@
                   <tr>
                     <td><!--email image--><i class="fas fa-paper-plane"></i></td>
                     <td class="tan">Email: </td>
-                    <td>support@nortsea.com</td>
+                    <td><a href="mailto:support@nortsea.com">support@nortsea.com</a></td>
                   </tr>
                   <tr>
                     <td><!--gps image--><i class="far fa-compass"></i></td>
@@ -377,27 +377,26 @@
                   </tr>
                 </table>
               </section>
-
-              <div class="col-md-3 footer-logo">
+              <div class="col-md-3 footer-logo no-pad">
                 <!--NortSea logo-->
-                <img src="./assets/logo-footer.png" alt="NortSea Hotel logo" class="center-block">
+                <img src="./assets/logo-footer.png" alt="NortSea Hotel logo" class="">
               </div>
-
             </div>
-
-            <!--copyright row-->
-            <section class="row row-copyright">
-              <p class="col-md-7">
-                Copyright &copy 2015 NORTSEA &ensp; | &ensp; About NORTSEA &ensp; | &ensp; Contact Support</p>
-              <p class="col-md-2 col-md-offset-2">Designed by Fatih34</p>
-            </section>
-
           </div>
-          <!--  FOOTER END -------------------------------------------------------->
-
         </div>
         <div class="col-md-2"></div>
       </footer>
+      <!--copyright row-->
+      <div class="row f-copyright-bg">
+        <div class="col-md-2"></div>
+        <div class="col-md-8" style="background-color: #3f3f3f">
+          <p class="col-md-7 f-copyright-txt">
+            Copyright &copy 2015 NORTSEA &ensp; | &ensp;<a href="about_us.htm"> About NORTSEA </a>&ensp; | &ensp;<a href="mailto:support@nortsea.com"> Contact Support</a></p>
+          <p class="col-md-5 f-copyright-txt f-txt-r-justify">Designed by Fatih34</p>
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+      <!--  FOOTER END -------------------------------------------------------->
     </div>
   </body>
 </html>

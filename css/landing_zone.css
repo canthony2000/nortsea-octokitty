@@ -5,7 +5,15 @@ black background: #3F3F3F
 tannish letters: #BDA87E
 grey letters: #ACACAC
 -------------------------------*/
-
+.landing-zone-carousel{
+  height: 400px;
+}
+.landing-zone-carousel-indicators{
+  width: 15%;
+  height: 5%;
+  left: 200px;
+  bottom: 0;
+}
 /* .container-fluid{
   background-color: #313131;
   color: #fff;
@@ -23,9 +31,13 @@ grey letters: #ACACAC
   font-family: Arial, sans-serif;
   letter-spacing: 1px;
   text-transform: uppercase;
+  text-align: left;
   font-weight: bolder;
   margin-top: 0;
   margin-bottom: .5em;
+}
+.landing p{
+  color: #fff;
 }
 
 .landing .btn{
