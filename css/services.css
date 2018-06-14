@@ -56,31 +56,3 @@ burple icons #8d5ba1;
 footer .row{
   background-color: #383838;
 }
-
-footer .box{
-  background-color: #383838;
-}
-
-.f-copyright-bg {
-  background-color: #3f3f3f;
-  height: 60px;
-}
-
-.f-copyright-txt{
-  line-height: 58px;
-  padding: 0px;
-  margin: 0px;
-  font-size: 10px;
-}
-
-.f-txt-r-justify{
-  text-align: right;
-  float: right: #383838;
-}
-
-.footer-logo img{
-  float:right;
-  height: 50px;
-  width: 175px;
-  margin-bottom: 50px;
-}
