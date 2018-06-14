@@ -30,11 +30,24 @@ footer .fas, .far {
 }
 
 footer .box {
-   background-color: #313131;
+   background-color: #383838;
    color: #ACACAC;
    font-family: Helvetica, sans-serif;
    font-size: 8px;
    font-weight: lighter;
+ }
+
+ footer .read-more {
+   color: #636363;
+ }
+
+ footer .row-copyright {
+   background-color: #3F3F3F;
+ }
+
+ footer .tan {
+   color: #BDA87E;
+   text-align: right;
  }
 
 .footer-logo {
@@ -42,18 +55,25 @@ footer .box {
 }
 
 .footer-logo img{
-  width: 50%;
+  float:right;
+  height: 50px;
+  width: 175px;
+  margin-bottom: 50px;
 }
 
-footer .read-more {
-  color: #636363;
+.f-copyright-bg {
+  background-color: #3f3f3f;
+  height: 60px;
 }
 
-footer .row-copyright {
-  background-color: #3F3F3F;
+.f-copyright-txt{
+  line-height: 58px;
+  padding: 0px;
+  margin: 0px;
+  font-size: 10px;
 }
 
-footer .tan {
-  color: #BDA87E;
+.f-txt-r-justify{
   text-align: right;
+  float: right: #383838;
 }
