@@ -1,98 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="fontawesome/web-fonts-with-css/css/fontawesome-all.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/news_details.css">
+  <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="./css/footer.css">
   <link rel="stylesheet" href="css/news_sidepanel.css">
-  <link rel="stylesheet" href="css/news_details.css">
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
 
   <title>News Carousel</title>
 </head>
+
 <body>
   <div class="container-fluid">
 
 
 
-  <!-- NEWS DETAILS PAGE -->
-  <div class="row bg-texture" id="ASPC-13">
-    <div class="col-md-2"></div>
-    <div class="col-md-6 news">
-      <h4>News</h4>
-      <h5>Duis autem vel eum iriure dolor in hendrerit</h5>
-      <div class="news-row">
-        <button class="news-btn">Jun 16, 2015</button>
-        <h6 class="share">Share:</h6>
-        <span class="icons">
+    <!-- NEWS CAROUSEL PAGE -->
+    <div class="row bg-texture" id="ASPC-12">
+      <div class="row carousel-header">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+          <h4>News</h4>
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+
+      <!-- this row below includes sidepanel and carousel -->
+      <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-6">
+          <!-- Carousel  -->
+          <div id="myCarousel" class="carousel slide news-carousel" data-ride="carousel">
+            <!-- Indicator dots-->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0"></li>
+              <li data-target="#myCarousel" class="active" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+              <li data-target="#myCarousel" data-slide-to="3"></li>
+              <li data-target="#myCarousel" data-slide-to="4"></li>
+
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner news-carousel-inner">
+              <div class="item active news-item">
+                <img src="assets/about-us-img.png" alt="">
+              </div>
+            </div>
+          </div>
+          <!-- end of Carousel -->
+
+          <!-- start of news part -->
+          <div class="news-text">
+            <h5>Duis autem vel eum iriure dolor in hendrerit</h5>
+            <div class="news-row">
+              <button class="news-btn">Jun 16, 2015</button>
+              <h6 class="share">Share:</h6>
+              <span class="icons">
               <i class="fab fa-facebook-square"></i>
               <i class="fab fa-twitter-square"></i>
               <i class="fab fa-google-plus-square"></i>
             </span>
-      </div>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem
-        quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam
-        eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit
-        qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </div>
-    <!-- News sidepanel starts here -->
-    <div class="col-md-2" id="ASPC-11">
-      <div class="tabs-component">
-        <ul class="nav nav-tabs">
-          <li class="active popular-tab"><a data-toggle="tab" href="#">Popular</a></li>
-          <li><a class="recent-tab" href="#">Recent</a></li>
-        </ul>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+              irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem
+              quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam
+              eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure
+              reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+              irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <!-- end of news -->
 
-        <div class="tab-content">
-          <div class="tab-pane active">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            <time>Date: June 5, 2014</time>
           </div>
-          <hr />
-          <div class="tab-pane active">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            <time>Date: June 5, 2014</time>
-          </div>
-          <hr />
-
-          <div class="tab-pane active">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            <time>Date: June 5, 2014</time>
-          </div>
-          <hr />
-
-          <div class="tab-pane active">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            <time>Date: June 5, 2014</time>
-          </div>
-          <hr />
-
-          <div class="tab-pane active">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            <time>Date: June 5, 2014</time>
-          </div>
-          <hr />
-
-          <div class="tab-pane active">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            <time>Date: June 5, 2014</time>
-          </div>
-          <hr />
-
         </div>
+
+        <!-- News sidepanel starts here -->
+        <div class="col-md-2" id="ASPC-11">
+          <div class="tabs-component">
+            <ul class="nav nav-tabs">
+              <li class="active popular-tab"><a data-toggle="tab" href="#">Popular</a></li>
+              <li><a class="recent-tab" href="#">Recent</a></li>
+            </ul>
+
+            <div class="tab-content">
+              <div class="tab-pane active">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <time>Date: June 5, 2014</time>
+              </div>
+              <hr />
+              <div class="tab-pane active">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <time>Date: June 5, 2014</time>
+              </div>
+              <hr />
+
+              <div class="tab-pane active">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <time>Date: June 5, 2014</time>
+              </div>
+              <hr />
+
+              <div class="tab-pane active">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <time>Date: June 5, 2014</time>
+              </div>
+              <hr />
+
+              <div class="tab-pane active">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <time>Date: June 5, 2014</time>
+              </div>
+              <hr />
+
+              <div class="tab-pane active">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <time>Date: June 5, 2014</time>
+              </div>
+              <hr />
+
+            </div>
+          </div>
+        </div>
+        <!-- News sidepanel ends -->
+        <div class="col-md-2"></div>
+
       </div>
     </div>
-    <!-- News sidepanel ends -->
-    <div class="col-md-2"></div>
-  </div>
-  <!-- NEWS DETAILS PAGE ENDS -------------------------->
+    <!-- NEWS CAROUSEL PAGE ENDS -------------------------->
 
 
   </div>
 </body>
+
 </html>
