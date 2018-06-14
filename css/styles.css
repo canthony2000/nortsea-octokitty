@@ -1,4 +1,4 @@
-	/*------useful colors----------
+/*------useful colors----------
 dark gray background: #363636;
 black (very dark gray) background: #313131;
 grey text: #acacac;
@@ -20,8 +20,15 @@ box borders #ebebeb;
 	font-family: Helvetica, sans-serif;
 }
 
-header, footer{
-  background-color: #3F3F3F;
+header {
+  background-color: #363636;
+}
+
+footer {
+	background-color: #383838;
+  border-top-color: #dbcdb2;
+  border-width: 2px;
+  border-style: solid;
 }
 
 h1{
@@ -30,10 +37,11 @@ h1{
 	font-size: 36px;
 	text-align: center;
 	letter-spacing: 7px;
+	font-weight: bold;
 }
 
 h2{
-  /* color: #464646; */
+  color: #464646;
 }
 
 h3{
@@ -45,7 +53,7 @@ p {
 }
 
 .bg-dark-gray {
-  background-color: #363636;
+  background-color: #313131;
 }
 
 .bg-texture {
