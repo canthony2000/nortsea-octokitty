@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="fontawesome/web-fonts-with-css/css/fontawesome-all.css">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/header.css">
@@ -45,11 +46,23 @@
           </div>
           <div class="col-md-1 header-col-1">
             <div class="row language">
-              <div class="col-md-7">
-                <a class="lang-a" href="#">En</a>
-              </div>
-              <div class="col-md-5">
+              <div class="col-md-12 header-col-1 dropdown">
+                  <a class="lang-a" href="#">En</a>
                 <i class="fas fa-angle-down header-icon"></i>
+                <ul class="dropdown-menu dropdown-header-content">
+                  <li>
+                    <a href="#">EN</a>
+                  </li>
+                  <li role="separator" class="divider"></li>
+                  <li>
+                    <a href="#">TR</a>
+                  </li>
+                  <li role="separator" class="divider"></li>
+                  <li>
+                    <a href="#">SP</a>
+                  </li>
+                  <li role="separator" class="divider"></li>
+                </ul>
               </div>
             </div>
           </div>
@@ -77,25 +90,78 @@
       <div class="col-md-8">
         <div class="row row-bottom">
           <ul class="list-inline">
-            <li class="col-md-1 header-col-1 home">Home
-              <div class="animated slideInLeft"></div>
+            <li class="col-md-1 header-col-1 home">
+              <a href="index.html">Home</a>
             </li>
             <div class="col-md-1 header-col-1">
-              <li class="col-md-1 header-col-1">About Us</li>
+              <li class="col-md-1 header-col-1">
+                <a href="about_us.html">About Us</a>
+              </li>
             </div>
-              <div class="col-md-1 header-col-1">
-                <li class="col-md-1 header-col-1">Services</li>
-                <span class="caret"></span>
-              </div>
-            <div class="col-md-1 header-col-1">
-              <li class="col-md-1 header-col-1">Products</li>
+
+            <div class="col-md-1 header-col-1 dropdown">
+              <li class="dropdown-toggle header-col-1 col-md-1">
+                <a href="services.html">Services</a>
+              </li>
               <span class="caret"></span>
+              <ul class="dropdown-menu dropdown-header-content">
+                <li>
+                  <a href="#">Action
+                    <i class="fas fa-chevron-circle-right"></i>
+                  </a>
+                </li>
+                <li role="separator" class="divider"></li>
+                <li>
+                  <a href="#">Action
+                    <i class="fas fa-chevron-circle-right"></i>
+                  </a>
+                </li>
+                <li role="separator" class="divider"></li>
+                <li>
+                  <a href="#">Action
+                    <i class="fas fa-chevron-circle-right"></i>
+                  </a>
+                </li>
+                <li role="separator" class="divider"></li>
+              </ul>
+            </div>
+
+            <div class="col-md-1 header-col-1 dropdown">
+              <li class="dropdown-toggle header-col-1 col-md-1">
+                <a href="products.html">Products</a>
+              </li>
+              <span class="caret"></span>
+              <ul class="dropdown-menu dropdown-header-content">
+                <li>
+                  <a href="#">Action
+                    <i class="fas fa-chevron-circle-right"></i>
+                  </a>
+                </li>
+                <li role="separator" class="divider"></li>
+                <li>
+                  <a href="#">Action
+                    <i class="fas fa-chevron-circle-right"></i>
+                  </a>
+                </li>
+                <li role="separator" class="divider"></li>
+                <li>
+                  <a href="#">Action
+                    <i class="fas fa-chevron-circle-right"></i>
+                  </a>
+                </li>
+                <li role="separator" class="divider"></li>
+              </ul>
             </div>
             <div class="col-md-1 header-col-1">
-              <li class="col-md-1 header-col-1">Gallery</li>
+              <li class="col-md-1 header-col-1">
+                <a href="gallery.html">Gallery</a>
+                <div class="animated slideInLeft"></div>
+              </li>
             </div>
             <div class="col-md-1 header-col-1">
-              <li class="col-md-1 header-col-1">Contact</li>
+              <li class="col-md-1 header-col-1">
+                <a href="contact.html">Contact</a>
+              </li>
             </div>
             <div class="col-md-1 header-col-1">
               <li class="col-md-1 header-col-1"><i class="fas fa-search header-icon"></i></li>

@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/header.css"><!--header stylesheet-->
     <link rel="stylesheet" href="./css/about_us.css"><!--about_us stylesheet-->
     <link rel="stylesheet" href="./css/footer.css"><!--footer stylesheet-->
+    <link rel="stylesheet" href="css/animate.css">
   </head>
   <body>
     <div class="container-fluid">
@@ -41,11 +42,23 @@
             </div>
             <div class="col-md-1 header-col-1">
               <div class="row language">
-                <div class="col-md-7">
-                  <a class="lang-a" href="#">En</a>
-                </div>
-                <div class="col-md-5">
+                <div class="col-md-12 header-col-1 dropdown">
+                    <a class="lang-a" href="#">En</a>
                   <i class="fas fa-angle-down header-icon"></i>
+                  <ul class="dropdown-menu dropdown-header-content">
+                    <li>
+                      <a href="#">EN</a>
+                    </li>
+                    <li role="separator" class="divider"></li>
+                    <li>
+                      <a href="#">TR</a>
+                    </li>
+                    <li role="separator" class="divider"></li>
+                    <li>
+                      <a href="#">SP</a>
+                    </li>
+                    <li role="separator" class="divider"></li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -73,25 +86,78 @@
         <div class="col-md-8">
           <div class="row row-bottom">
             <ul class="list-inline">
-              <li class="col-md-1 header-col-1 home">Home
-                <div class="animated slideInLeft"></div>
+              <li class="col-md-1 header-col-1 home">
+                <a href="index.html">Home</a>
               </li>
               <div class="col-md-1 header-col-1">
-                <li class="col-md-1 header-col-1">About Us</li>
+                <li class="col-md-1 header-col-1">
+                  <a href="about_us.html">About Us</a>
+                  <div class="animated slideInLeft"></div>
+                </li>
               </div>
-                <div class="col-md-1 header-col-1">
-                  <li class="col-md-1 header-col-1">Services</li>
-                  <span class="caret"></span>
-                </div>
-              <div class="col-md-1 header-col-1">
-                <li class="col-md-1 header-col-1">Products</li>
+
+              <div class="col-md-1 header-col-1 dropdown">
+                <li class="dropdown-toggle header-col-1 col-md-1">
+                  <a href="services.html">Services</a>
+                </li>
                 <span class="caret"></span>
+                <ul class="dropdown-menu dropdown-header-content">
+                  <li>
+                    <a href="#">Action
+                      <i class="fas fa-chevron-circle-right"></i>
+                    </a>
+                  </li>
+                  <li role="separator" class="divider"></li>
+                  <li>
+                    <a href="#">Action
+                      <i class="fas fa-chevron-circle-right"></i>
+                    </a>
+                  </li>
+                  <li role="separator" class="divider"></li>
+                  <li>
+                    <a href="#">Action
+                      <i class="fas fa-chevron-circle-right"></i>
+                    </a>
+                  </li>
+                  <li role="separator" class="divider"></li>
+                </ul>
+              </div>
+
+              <div class="col-md-1 header-col-1 dropdown">
+                <li class="dropdown-toggle header-col-1 col-md-1">
+                  <a href="products.html">Products</a>
+                </li>
+                <span class="caret"></span>
+                <ul class="dropdown-menu dropdown-header-content">
+                  <li>
+                    <a href="#">Action
+                      <i class="fas fa-chevron-circle-right"></i>
+                    </a>
+                  </li>
+                  <li role="separator" class="divider"></li>
+                  <li>
+                    <a href="#">Action
+                      <i class="fas fa-chevron-circle-right"></i>
+                    </a>
+                  </li>
+                  <li role="separator" class="divider"></li>
+                  <li>
+                    <a href="#">Action
+                      <i class="fas fa-chevron-circle-right"></i>
+                    </a>
+                  </li>
+                  <li role="separator" class="divider"></li>
+                </ul>
               </div>
               <div class="col-md-1 header-col-1">
-                <li class="col-md-1 header-col-1">Gallery</li>
+                <li class="col-md-1 header-col-1">
+                  <a href="gallery.html">Gallery</a>
+                </li>
               </div>
               <div class="col-md-1 header-col-1">
-                <li class="col-md-1 header-col-1">Contact</li>
+                <li class="col-md-1 header-col-1">
+                  <a href="contact.html">Contact</a>
+                </li>
               </div>
               <div class="col-md-1 header-col-1">
                 <li class="col-md-1 header-col-1"><i class="fas fa-search header-icon"></i></li>
@@ -103,7 +169,7 @@
       </header>
       <!-- END OF HEADER ------------------------------------------------------>
 
-<!---Body Page Section-------------------------------------------------------------------------------------------------->
+<!---About us main Page Section-------------------------------------------------------------------------------------------------->
       <div class="row bg-dark-gray">
         <div class="col-md-2"></div>
           <div class="col-md-8">
@@ -113,7 +179,7 @@
               <h3>About Us</h3>
             </div>
             <div class="ns-breadcrumb col-md-6">
-              <p>Home  /  Pages  /  About Us</p>
+              <p><a href="index.html">Home</a>  / <a href="news.html">Pages</a>   / <a href="about_us.html">About Us</a> </p>
             </div>
           </div>
           <section class="about-us-main">
@@ -136,54 +202,59 @@
       </div>
           <!--End About us main article---------------------------------------->
 
-          <!-- Article previews ----------------------------------------------->
-        <div class="row">
+
+        <div class="row bg-texture">
           <div class="col-md-2"></div>
           <div class="col-md-8">
-          <section class="row previews">
+            <div class="row">
+              <div class="col-md-12">
+                <!-- Article previews ----------------------------------------------->
+                <section class="row previews">
 
-            <!-- Amazing Travel -->
-            <article class="col-md-3 center-block fun-articles">
-              <img src="./assets/suitcase-icon.png" alt="Travel quick link">
-              <h4>Amazing Travel</h4>
-              <p>Lorem ipsum dolor sit amet, adipisicing
-                elit, sed diam nonummy nibh euismod
-                tincidunt ut laoreet.</p>
-              <p class="read-more">Read More <i class="read-more fas fa-caret-right"></i></p>
-            </article>
+                  <!-- Amazing Travel -->
+                  <article class="col-md-3 center-block fun-articles">
+                    <img src="./assets/suitcase-icon.png" alt="Travel quick link">
+                    <h4>Amazing Travel</h4>
+                    <p>Lorem ipsum dolor sit amet, adipisicing
+                      elit, sed diam nonummy nibh euismod
+                      tincidunt ut laoreet.</p>
+                    <p class="read-more">Read More <i class="read-more fas fa-caret-right"></i></p>
+                  </article>
 
-            <!-- Discover -->
-            <article class="col-md-3 center-block fun-articles">
-              <img src="./assets/map-icon.png" alt="Discover quick link">
-              <h4 class="light-tan">Discover</h4>
-              <p>Nam liber tempor cum soluta nobis
-                eleifend option congue nihil imperdiet
-                doming id quod mazim.</p>
-              <p class="read-more light-tan">Read More <i class="light-tan fas fa-caret-right"></i></p>
-            </article>
+                  <!-- Discover -->
+                  <article class="col-md-3 center-block fun-articles">
+                    <img src="./assets/map-icon.png" alt="Discover quick link">
+                    <h4 class="light-tan">Discover</h4>
+                    <p>Nam liber tempor cum soluta nobis
+                      eleifend option congue nihil imperdiet
+                      doming id quod mazim.</p>
+                    <p class="read-more light-tan">Read More <i class="light-tan fas fa-caret-right"></i></p>
+                  </article>
 
-            <!-- Book Your Trip -->
-            <article class="col-md-3 center-block fun-articles">
-              <img src="./assets/globe-icon.png" alt="Booking quick link">
-              <h4>Book Your Trip</h4>
-              <p>Nam liber tempor cum soluta nobis
-                eleifend option congue nihil imperdiet
-                doming id quod mazim.</p>
-              <p class="read-more">Read More <i class="read-more fas fa-caret-right"></i></p>
-            </article>
+                  <!-- Book Your Trip -->
+                  <article class="col-md-3 center-block fun-articles">
+                    <img src="./assets/globe-icon.png" alt="Booking quick link">
+                    <h4>Book Your Trip</h4>
+                    <p>Nam liber tempor cum soluta nobis
+                      eleifend option congue nihil imperdiet
+                      doming id quod mazim.</p>
+                    <p class="read-more">Read More <i class="read-more fas fa-caret-right"></i></p>
+                  </article>
 
-            <!-- Nice Support -->
-            <article class="col-md-3 center-block fun-articles">
-              <img src="./assets/messaging-icon.png" alt="Support quick link">
-              <h4>Nice Support</h4>
-              <p>Lorem ipsum dolor sit amet, adipisic-
-                ing elit, sed diam nonummy nibh
-                euismod tincidunt ut laoreet.</p>
-              <p class="read-more">Read More <i class="read-more fas fa-caret-right"></i></p>
-            </article>
+                  <!-- Nice Support -->
+                  <article class="col-md-3 center-block fun-articles">
+                    <img src="./assets/messaging-icon.png" alt="Support quick link">
+                    <h4>Nice Support</h4>
+                    <p>Lorem ipsum dolor sit amet, adipisic-
+                      ing elit, sed diam nonummy nibh
+                      euismod tincidunt ut laoreet.</p>
+                    <p class="read-more">Read More <i class="read-more fas fa-caret-right"></i></p>
+                  </article>
 
-          </section>
-          <!-- End Article previews ------------------------------------------->
+                </section>
+                <!-- End Article previews ------------------------------------------->
+              </div>
+            </div>
 
           <!--Team ------------------------------------------------------------>
           <section>
