@@ -15,6 +15,7 @@ background image: background-texture.png
   margin-top: 80px;
   background-color: #363636;
   height: 250px;
+  padding: 1em;
 }
 
 
@@ -42,7 +43,7 @@ background image: background-texture.png
 
 
 .align-bottom {
-  margin-top: 6em;
+  margin-top: 4em;
 }
 
 .thumbnail{
@@ -84,4 +85,8 @@ article .news-read-more {
   font-size: 1.1em;
   font-weight: bold;
   font-family: Garamond;
+}
+
+.view-all-news {
+  margin-bottom: 2em;
 }

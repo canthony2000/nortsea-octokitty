@@ -26,9 +26,7 @@ header {
 
 footer {
 	background-color: #383838;
-  border-top-color: #dbcdb2;
-  border-width: 2px;
-  border-style: solid;
+  border-top: 2px solid #dbcdb2;
 	padding-top: 20px;
 	padding-bottom: 30px;
 }
