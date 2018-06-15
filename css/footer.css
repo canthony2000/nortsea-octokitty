@@ -21,6 +21,17 @@ footer td {
   padding: 10px;
 }
 
+footer a {
+  color: inherit;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: inherit;
+  text-decoration: underline;
+}
+
+
 footer .fa-caret-right {
   color: #ACACAC;
 }
@@ -71,6 +82,15 @@ footer .box {
   padding: 0px;
   margin: 0px;
   font-size: 10px;
+}
+
+.f-copyright-txt a{
+  color: inherit;
+}
+
+.f-copyright-txt a:hover {
+  color: inherit;
+  text-decoration: underline;
 }
 
 .f-txt-r-justify{
