@@ -82,7 +82,9 @@ a:hover {
 	text-align: center;
 }
 
-.ns-breadcrumb{
+.breadcrumb{
   text-align: right;
   margin-top: 30px;
+	background-color: #313131;
+	color: #ACACAC;
 }
