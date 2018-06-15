@@ -58,8 +58,12 @@ button {
   padding: 0;
 }
 
+.contact-main-row {
+  height: 350px;
+}
+
 .row {
-  margin-left: 0px;
+  /* margin-left: 0px; */
 }
 
 .ns-breadcrumb{
