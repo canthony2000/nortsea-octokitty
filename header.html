@@ -14,49 +14,56 @@
 
 <body>
 
-<!-- This header's divs don't correspond to header divs in index.html, but works as is. -->
-
   <div class="header-box container-fluid" id="ASPC-2">
-    <div class="row main-row ">
-      <!-- LOGO --------------------------------------------------------------->
-      <div class="col-md-4 logo">
-        <img class="mh-100" src="./assets/logo-header.png" alt="Main Logo"
+    <!-- HEADER  ------------------------------------------------------------>
+    <header class="row header-box" id="ASPC-2">
+      <!-- Logo -->
+      <div class="col-md-4 logo ">
+        <img src="./assets/logo_header.png" alt="Main Logo">
       </div>
-
-      <!-- TOP MENU ----------------------------------------------------------->
+      <!-- End of Logo -->
+      <!-- Top Menu  -->
       <div class="col-md-8">
-        <div class="row col-md-offset-1 row-top">
-          <div class="col-md-1 header-col-1 envelope">
+        <div class="row row-top">
+          <div class="col-md-1 header-col-1 envelope ">
             <i class="fas fa-envelope fa-fw header-icon"></i> info@hellohelp.com
           </div>
-
-          <div class="col-md-1 header-col-1 phone">
+          <div class="col-md-1 header-col-1 phone ">
             <i class="fas fa-phone-volume fa-fw header-icon"></i>+440 88978654323
           </div>
-
-          <div class="col-md-1 header-col-1 login">
-            <div class="row">
-              <div class="col-md-8">
+          <div class="col-md-1 header-col-1 ">
+            <div class="row login">
+              <div class="col-md-8 ">
                 <a class="login-a" href="#">Login</a>
               </div>
-              <div class="col-md-4">
+              <div class="col-md-4 ">
                 <i class="fas fa-angle-right header-icon"></i>
               </div>
             </div>
           </div>
-
-          <div class="col-md-1 header-col-1">
+          <div class="col-md-1 header-col-1 ">
             <div class="row language">
-              <div class="col-md-7">
+              <div class="col-md-12 header-col-1 dropdown">
                 <a class="lang-a" href="#">En</a>
-              </div>
-              <div class="col-md-5">
                 <i class="fas fa-angle-down header-icon"></i>
+                <ul class="dropdown-menu dropdown-header-content">
+                  <li>
+                    <a href="#">EN</a>
+                  </li>
+                  <li role="separator" class="divider"></li>
+                  <li>
+                    <a href="#">TR</a>
+                  </li>
+                  <li role="separator" class="divider"></li>
+                  <li>
+                    <a href="#">SP</a>
+                  </li>
+                  <li role="separator" class="divider"></li>
+                </ul>
               </div>
             </div>
           </div>
-
-          <div class="col-md-2 social-icons">
+          <div class="col-md-1 header-col-1 social-icons ">
             <div class="row">
               <div class="col-md-3">
                 <i class="fab fa-facebook-square header-icon"></i>
@@ -74,39 +81,82 @@
           </div>
         </div>
       </div>
+      <!-- End of Top Menu -->
 
-      <!-- BOTTOM MENU -------------------------------------------------------->
-      <div class="col-md-8">
-        <div class="row col-md-offset-1 row-bottom">
+      <!-- Bottom Menu  -->
+      <div class="col-md-8 ">
+        <div class="row row-bottom">
           <ul class="list-inline">
-              <li class="col-md-1 header-col-1 home">
-                <a href="index.html">Home</a>
-                <div class="animated slideInLeft"></div>
-              </li>
-            <div class="col-md-1 header-col-1">
-              <li class="col-md-1 header-col-1">
+            <li class="col-md-1 header-col-1 home ">
+              <a href="index.html">Home</a>
+              <div class="animated slideInLeft"></div>
+            </li>
+            <div class="col-md-1 header-col-1 ">
+              <li class="col-md-1 header-col-1 ">
                 <a href="about_us.html">About Us</a>
               </li>
             </div>
-            <div class="col-md-1 header-col-1">
-              <li class="col-md-1 header-col-1">
+
+            <div class="col-md-1 header-col-1 dropdown">
+              <li class="dropdown-toggle header-col-1 col-md-1">
                 <a href="services.html">Services</a>
               </li>
               <span class="caret"></span>
+              <ul class="dropdown-menu dropdown-header-content">
+                <li>
+                  <a href="#">Action
+                    <i class="fas fa-chevron-circle-right"></i>
+                  </a>
+                </li>
+                <li role="separator" class="divider"></li>
+                <li>
+                  <a href="#">Action
+                    <i class="fas fa-chevron-circle-right"></i>
+                  </a>
+                </li>
+                <li role="separator" class="divider"></li>
+                <li>
+                  <a href="#">Action
+                    <i class="fas fa-chevron-circle-right"></i>
+                  </a>
+                </li>
+                <li role="separator" class="divider"></li>
+              </ul>
             </div>
-            <div class="col-md-1 header-col-1">
-              <li class="col-md-1 header-col-1">
+
+            <div class="col-md-1 header-col-1 dropdown ">
+              <li class="dropdown-toggle header-col-1 col-md-1 ">
                 <a href="products.html">Products</a>
               </li>
               <span class="caret"></span>
+              <ul class="dropdown-menu dropdown-header-content">
+                <li>
+                  <a href="#">Action
+                    <i class="fas fa-chevron-circle-right"></i>
+                  </a>
+                </li>
+                <li role="separator" class="divider"></li>
+                <li>
+                  <a href="#">Action
+                    <i class="fas fa-chevron-circle-right"></i>
+                  </a>
+                </li>
+                <li role="separator" class="divider"></li>
+                <li>
+                  <a href="#">Action
+                    <i class="fas fa-chevron-circle-right"></i>
+                  </a>
+                </li>
+                <li role="separator" class="divider"></li>
+              </ul>
             </div>
-            <div class="col-md-1 header-col-1">
-              <li class="col-md-1 header-col-1">
+            <div class="col-md-1 header-col-1 ">
+              <li class="col-md-1 header-col-1 ">
                 <a href="gallery.html">Gallery</a>
               </li>
             </div>
-            <div class="col-md-1 header-col-1">
-              <li class="col-md-1 header-col-1">
+            <div class="col-md-1 header-col-1 ">
+              <li class="col-md-1 header-col-1 ">
                 <a href="contact.html">Contact</a>
               </li>
             </div>
@@ -116,13 +166,11 @@
           </ul>
         </div>
       </div>
+      <!-- End of Bottom Menu -->
+    </header>
+    <!-- END OF HEADER ------------------------------------------------------>
 
-    </div>
   </div>
-  </div>
-
-
-
 
 </body>
 
