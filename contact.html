@@ -9,7 +9,8 @@
   <link rel="stylesheet" href="fontawesome/web-fonts-with-css/css/fontawesome-all.css">
   <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/header.css">
-  <link rel="stylesheet" href="css/contact.css">
+  <link rel="stylesheet" href="./css/footer.css">
+  <link rel="stylesheet" href="./css/contact.css">
 
 </head>
 
@@ -176,7 +177,7 @@
 
     <div class="row bg-dark-gray" id="ASPC-8">
       <div class="col-md-2"></div>
-      <div class="col-md-8">
+      <div class="col-md-8 contact-main-row">
         <div class="row">
           <div class="col-md-6">
             <h3>Contact</h3>
@@ -186,7 +187,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-12">
+          <div class="col-md-12 contact-main-margin">
             <h1>WHERE WE ARE</h1>
             <p class="ns-p-italic">1300 Blvd Santa Monica, CA 2405 United States</p>
             <p class="ns-p-italic">02563234234</p>
@@ -201,25 +202,27 @@
       <div class="col-md-8">
         <div class="row">
           <div class="col-md-6">
-            <h2>Contact Info</h2>
-            <p>Lorem ipsum dolor sit amet, at posse dicta per. At graeco suavitate his, ei case eripuit ius, vide torquatos his ei. Nostrum fastidii percipitur eu nec, ea possim urbanitas pro, omnes dolores duo ex. Mei prima viris ei, saepe nostrud mentitum mei an, at case denique ocurreret mea. Eleifend intellegat est ei. Primis luptatum pri et.</p>
-              <div class="row">
-                <div class="no-l-pad col-md-6">
-                  <h3>Address:</h3>
-                  <p>795 Fake Ave, Door 6<br/>Wonderland, CA 94107, USA</p>
-                  <h3>Phone & Fax:</h3>
-                  <p>440 875369208<br/>440 353363114</p>
+            <div class="row">
+              <h2>Contact Info</h2>
+              <p>Lorem ipsum dolor sit amet, at posse dicta per. At graeco suavitate his, ei case eripuit ius, vide torquatos his ei. Nostrum fastidii percipitur eu nec, ea possim urbanitas pro, omnes dolores duo ex. Mei prima viris ei, saepe nostrud mentitum mei an, at case denique ocurreret mea. Eleifend intellegat est ei. Primis luptatum pri et.</p>
+            </div>
+            <div class="row">
+              <div class="no-l-pad col-md-6">
+                <h4>Address:</h4>
+                <p>795 Fake Ave, Door 6<br/>Wonderland, CA 94107, USA</p>
+                <h4>Phone & Fax:</h4>
+                <p>440 875369208<br/>440 353363114</p>
+              </div>
+              <div class="no-l-pad col-md-6">
+                <h4>Email:</h4>
+                <p>info@waxom.com<br />support@waxom.com</p>
+                <h4>Social Network:</h4>
+                <div class="c-social-icons">
+                  <i class="fab fa-facebook-square"></i>
+                  <i class="fab fa-twitter"></i>
+                  <i class="fas fa-basketball-ball"></i>
+                  <i class="fab fa-instagram"></i>
                 </div>
-                <div class="no-l-pad col-md-6">
-                  <h3>Email:</h3>
-                  <p>info@waxom.com<br />support@waxom.com</p>
-                  <h3>Social Network:</h3>
-                  <div>
-                    <i class="fab fa-facebook-square"></i>
-                    <i class="fab fa-twitter-square"></i>
-                    <i class="fas fa-camera-retro"></i>
-                    <i class="fas fa-envelope"></i>
-                  </div>
                 </div>
               </div>
           </div>
@@ -229,111 +232,101 @@
               <input type="text" placeholder="Your Name">
               <input type="text" placeholder="Your Email Address">
               <textarea class="ct-message" placeholder="Your Message"></textarea>
-              <button type="button">SEND MESSAGE</button>
+              <a href="mailto:support@nortsea.com">
+                <button type="button">SEND MESSAGE</button>
+              </a>
             </form>
           </div>
         </div>
         <div class="row">
-          <div class="col-md-12">
-            <div>
-              <form action="contact.html" method="post">
-                <textarea class="ct-message"></textarea>
-              </form>
-            </div>
-          </div>
+          <form action="contact.html" method="post">
+            <textarea class="ct-message"></textarea>
+          </form>
         </div>
       </div>
       <div class="bg-dark-gray col-md-2"></div>
     </div>
 <!-- END CONTACT CONTENT ---------------------------------------------------------->
 
-<!--Footer Page Section----------------------------------------------------------------------------------------------->
-      <footer class="row">
-        <div class="col-md-2"></div>
-        <div class="col-md-8">
-
 <!--FOOTER ---------------------------------------------------------------->
-          <div class="box" id="ASPC-3">
-
-            <div class="row row-main">
-
-              <!--About article preview and link-->
-              <article class="col-md-3">
-                <h4>NortSea About</h4>
-                <p>Lorem ipsum dolor sit amet,
-                  consectetur adipisicing elit, sed do
-                  eiusmod tempor incididunt ut
-                  labore et dolore magna aliqua. Ut
-                  enim ad minim veniam, quis nos-
-                  trud exercitation ullamco laboris
-                  nisi ut aliquip ex ea commodo
-                </p>
-                <p class="read-more">Read More
-                  <!--arrow img-->
-                  <i class="read-more fas fa-caret-right"></i>
-                </p>
-              </article>
-
-              <!--Hotel links section-->
-              <ul class="col-md-3">
-                <h4>NortSea Hotel</h4>
-                <li> About Us </li>
-                <li> Services </li>
-                <li> Contact </li> <!--make into links?-->
-              </ul>
-
-              <!--Contact section-->
-              <section class="col-md-3">
-                <h4>Contact Us</h4>
-
-                <table>
-                  <tr>
-                    <td><!--address image--><i class="fas fa-map-marker-alt"></i></td>
-                    <td class="tan">Address: </td>
-                    <td>
-                      1100 Pico Blvd <br>
-                      Santa Monica, CA 90405 <br>
-                      United States
-                    </td>
-                  </tr>
-                  <tr>
-                    <td><!--phone image--><i class="fas fa-phone"></i></td>
-                    <td class="tan">Phone: </td>
-                    <td>+440 1233123208</td>
-                  </tr>
-                  <tr>
-                    <td><!--email image--><i class="fas fa-paper-plane"></i></td>
-                    <td class="tan">Email: </td>
-                    <td>support@nortsea.com</td>
-                  </tr>
-                  <tr>
-                    <td><!--gps image--><i class="far fa-compass"></i></td>
-                    <td class="tan">GPS: </td>
-                    <td>12.021211-118.469009</td>
-                  </tr>
-                </table>
-              </section>
-
-              <div class="col-md-3 footer-logo">
-                <!--NortSea logo-->
-                <img src="./assets/logo-footer.png" alt="NortSea Hotel logo" class="center-block">
+        <footer class="row">
+          <div class="col-md-2"></div>
+          <div class="col-md-8">
+            <div class="box" id="ASPC-3">
+              <div class="row row-main">
+                <!--About article preview and link-->
+                <article class="col-md-3">
+                  <h4>NortSea About</h4>
+                  <p>Lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit, sed do
+                    eiusmod tempor incididunt ut
+                    labore et dolore magna aliqua. Ut
+                    enim ad minim veniam, quis nos-
+                    trud exercitation ullamco laboris
+                    nisi ut aliquip ex ea commodo
+                  </p>
+                  <p class="read-more"><a href="about_us.html">Read More</a>
+                    <!--arrow img-->
+                    <i class="read-more fas fa-caret-right"></i>
+                  </p>
+                </article>
+                <!--Hotel links section-->
+                <ul class="col-md-3">
+                  <h4>NortSea Hotel</h4>
+                  <li><a href="about_us.html"> About Us </a></li>
+                  <li><a href="services.html"> Services </a></li>
+                  <li><a href="contact.html"> Contact </a></li> <!--make into links?-->
+                </ul>
+                <!--Contact section-->
+                <section class="col-md-3">
+                  <h4>Contact Us</h4>
+                  <table>
+                    <tr>
+                      <td><!--address image--><i class="fas fa-map-marker-alt"></i></td>
+                      <td class="tan">Address: </td>
+                      <td>
+                        1100 Pico Blvd <br>
+                        Santa Monica, CA 90405 <br>
+                        United States
+                      </td>
+                    </tr>
+                    <tr>
+                      <td><!--phone image--><i class="fas fa-phone"></i></td>
+                      <td class="tan">Phone: </td>
+                      <td>+440 1233123208</td>
+                    </tr>
+                    <tr>
+                      <td><!--email image--><i class="fas fa-paper-plane"></i></td>
+                      <td class="tan">Email: </td>
+                      <td><a href="mailto:support@nortsea.com">support@nortsea.com</a></td>
+                    </tr>
+                    <tr>
+                      <td><!--gps image--><i class="far fa-compass"></i></td>
+                      <td class="tan">GPS: </td>
+                      <td>12.021211-118.469009</td>
+                    </tr>
+                  </table>
+                </section>
+                <div class="col-md-3 footer-logo no-pad">
+                  <!--NortSea logo-->
+                  <img src="./assets/logo-footer.png" alt="NortSea Hotel logo" class="">
+                </div>
               </div>
-
             </div>
-
-            <!--copyright row-->
-            <section class="row row-copyright">
-              <p class="col-md-7">
-                Copyright &copy 2015 NORTSEA &ensp; | &ensp; About NORTSEA &ensp; | &ensp; Contact Support</p>
-              <p class="col-md-2 col-md-offset-2">Designed by Fatih34</p>
-            </section>
-
           </div>
-          <!--  FOOTER END -------------------------------------------------------->
-
+          <div class="col-md-2"></div>
+        </footer>
+        <!--copyright row-->
+        <div class="row f-copyright-bg">
+          <div class="col-md-2"></div>
+          <div class="col-md-8" style="background-color: #3f3f3f">
+            <p class="col-md-7 f-copyright-txt">
+              Copyright &copy 2015 NORTSEA &ensp; | &ensp;<a href="about_us.htm"> About NORTSEA </a>&ensp; | &ensp;<a href="mailto:support@nortsea.com"> Contact Support</a></p>
+            <p class="col-md-5 f-copyright-txt f-txt-r-justify">Designed by Fatih34</p>
+          </div>
+          <div class="col-md-2"></div>
         </div>
-        <div class="col-md-2"></div>
-      </footer>
+        <!--  FOOTER END -------------------------------------------------------->
   </div>
 </body>
 </html>

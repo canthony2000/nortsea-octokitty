@@ -19,15 +19,10 @@ grey for circle: #E3E3E3
   background-color: #313131;
 }
 
-/* .fun-articles, .team-bio {
-  max-width: 25%;
-  margin-top: 2em;
-  padding: 2em;
-  text-align: center;
-} */
+
 
 .fun-articles, .team-bio {
-  margin: 2em 1.35em;
+  margin: 2em 1.3em;
   padding: 1em;
   text-align: center;
   max-width: 200px;

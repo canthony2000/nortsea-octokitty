@@ -20,6 +20,10 @@ article > p {
   font-weight: 200;
 }
 
+.previews h4 {
+  color: black;
+}
+
 .row .previews{
   /* width: 100%; */
   font-family: Helvetica, sans-serif;
@@ -37,7 +41,7 @@ article > p {
   text-align: center;
 }
 
-.light-tan {
+.previews .light-tan {
   color: #BDA87E;
 }
 

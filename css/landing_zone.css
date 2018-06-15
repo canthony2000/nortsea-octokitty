@@ -16,7 +16,7 @@ grey letters: #ACACAC
 }
 .container-fluid{
   background-color: #313131;
-  color: #fff;
+  /* color: #fff; */
 }
 .sale{
   margin-top: 100px;

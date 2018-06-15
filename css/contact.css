@@ -54,12 +54,21 @@ button {
   font-size: 16px;
 }
 
+h4 {
+  color: #c0a878;
+}
+
 .no-l-pad {
   padding: 0;
 }
 
-.row {
-  margin-left: 0px;
+.contact-main-row {
+  height: 320px;
+  margin-top: 30px;
+}
+
+.contact-main-margin {
+  margin-top: 40px;
 }
 
 .ns-breadcrumb{
@@ -67,11 +76,13 @@ button {
   margin-top: 30px;
 }
 
-.social-icons {
-  display: inline-block;
-  text-align: bottom;
-  border: 1px solid rgb(149, 161, 157);
-  border-radius: 1px;
-  margin-right: 3px;
-  text-transform: uppercase;
+.c-social-icons {
+  color: #ACACAC;
+  letter-spacing: 5px;
+  font-size: 16px;
+  margin-top: 1.5em;
+}
+
+.c-social-icons i:nth-child(2) {
+  color: #c0a878;
 }
