@@ -56,19 +56,25 @@ span .gallery-angle-icon{
 }
 
 .col-half-offset{
-  margin-left: 4.5%;
-  margin-bottom: 4.5%;
+  margin-right: 30px;
+  margin-bottom: 30px;
 }
 .gallery-pictures{
-  margin: 0;
+  margin: 0px;
+  padding: 0px;
   width: 100%;
 }
 .gallery-pic{
-  width: 150px;
-  height: 150px;
+  width: 140px;
+  height: 140px;
   padding: 55px;
   background-color: lightgrey;
 }
 .gallery-pic img{
   width: 40px;
+}
+
+.col-md-10{
+  margin-left: 16.5%;
+  margin-right: 16.5%;
 }
