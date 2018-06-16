@@ -69,8 +69,10 @@ section .about-article {
 .product-holder {
   border: 1px solid #ACACAC;
   margin-top: 20px;
-  /* padding: 1.5em; */
   background-color: #fff;
+  font-size: .8em;
+  padding: 1.5em;
+  margin-left: 10px;
 }
 
 .home-2-carousel{
@@ -103,27 +105,22 @@ section .about-article {
 .view-all {
   color: #ACACAC;
   border: 1px solid #ACACAC;
-  margin-top: 60px;
 }
 
 /* Natalia */
+.news-holder{
+  /* padding: 0; */
+  margin-right: 50px;
+}
 .news-holder-row{
+  /* padding: 0; */
   margin-bottom: 20px;
 }
 
-.news-holder-row .news-holder{
-  width: 63%;
+.media-object{
+  padding: 0;
+  margin-bottom: 18px;
 }
-
-.news-holder-row .announcement-holder,
-.news-holder-row .product-holder{
-  font-size: .8em;
-  padding: 1.5em;
-  margin-left: 20px;
-  width: 100%
-}
-
-.calendar-row{
-  /* border: 1px solid red; */
-  padding: 5px;
+.carousel-inner hr{
+  margin: 10px 0;
 }
