@@ -3,14 +3,10 @@
   background-color:#313131;
 }
 .gallery-subheader {
-  padding-top: 50px;
+  padding-top: 30px;
   height: 350px;
   width: 100%;
   margin: auto;
-}
-.gallery-subheader h4{
-  color: #c0a878;
-  text-align: left;
 }
 .gallery-subheader p{
   font-size: .7em;
@@ -19,8 +15,9 @@
 }
 
 .gallery-img img{
-  padding-top: 80px;
   width: 30px;
+}
+.col-md-8 .gallery-img{
   text-align: center;
 }
 /***** gallery bottom *****/

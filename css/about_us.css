@@ -6,6 +6,9 @@ grey for circle: #E3E3E3
 .about-us-wrapper {
   background-color: #3F3F3F;
 }
+.about-us-main-row{
+  margin-top: 30px;
+}
 
 .about-us-wrapper ul {
   list-style-type: none;
