@@ -62,7 +62,7 @@ background image: background-texture.png
 
 .news-article-previews {
   background-color: #f7f7f7;
-  padding: 1em;
+  /* padding: 1em; */
 }
 
 article .news-read-more {
