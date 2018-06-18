@@ -92,4 +92,5 @@ a:hover {
 
 .fun-articles:hover *{
 	color: #BDA87E;
+	transform: scale(1.1);
 }
