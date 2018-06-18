@@ -14,28 +14,28 @@ box borders #ebebeb;
 
 .wc-weather{
   background: linear-gradient(to bottom right, rgb(235, 219, 142), rgb(235, 164, 22));
-  height: 200px;
+  height: 180px;
   margin-bottom: 5px;
   padding: 15px;
 }
 
 .wc-gallery{
   background: linear-gradient(to bottom right, rgb(130, 130, 130), rgb(58, 58, 58));
-  height: 123px;
+  height: 115px;
   margin-bottom: 5px;
   padding: 15px;
 }
 
 .wc-virtual-tour{
   background: #ebebeb;
-  height: 123px;
+  height: 125px;
   padding: 15px;
   margin-bottom: 2em;
 }
 
 .card-wrapper{
-  width: 160px;
-  margin: auto;
+  width: 135px;
+  margin:auto;
   text-align: left;
 }
 
@@ -48,7 +48,7 @@ box borders #ebebeb;
 .wc-weather h2{
   color: white;
   margin: 0px;
-  font-size: 28px;
+  font-size: 24px;
 }
 
 .wc-gallery h3{
@@ -66,17 +66,17 @@ box borders #ebebeb;
 .wcard-sun{
   margin-top: 1em;
   margin-bottom: 1em;
-  width: 5.5em;
+  width: 5em;
 }
 
 .wcard-gallery{
   margin-top: 1.5em;
-  width: 4em;
+  width: 3.5em;
 }
 
 .wcard-360vt{
   margin-top: 1.5em;
-  width: 6.5em;
+  width: 6em;
 }
 
 .card-wrapper img{
