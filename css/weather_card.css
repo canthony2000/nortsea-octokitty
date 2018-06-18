@@ -30,11 +30,13 @@ box borders #ebebeb;
   background: #ebebeb;
   height: 123px;
   padding: 15px;
+  margin-bottom: 2em;
 }
 
 .card-wrapper{
   width: 160px;
   margin: auto;
+  text-align: left;
 }
 
 .wc-weather h3{
