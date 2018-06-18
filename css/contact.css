@@ -12,6 +12,18 @@ button: #7d7d7d;
 box borders #ebebeb;
 -------------------------------*/
 
+@media (min-width: 992px) {
+  .no-l-pad{
+    margin-left: -15px;
+  }
+}
+
+@media (max-width: 993px) {
+  .no-l-pad{
+    margin-left: 0px;
+  }
+}
+
 input, textarea {
   width:100%;
   border-width: 1px;
@@ -58,9 +70,9 @@ h4 {
   color: #c0a878;
 }
 
-.no-l-pad {
-  padding: 0;
-}
+/* .no-l-pad {
+  padding: 15px;
+} */
 
 .contact-main-row {
   height: 320px;
