@@ -6,13 +6,13 @@ tannish letters: #BDA87E
 grey letters: #ACACAC
 -------------------------------*/
 .landing-zone-carousel{
-  height: 400px;
+  height: 350px;
 }
 .landing-zone-carousel-indicators{
   width: 15%;
   height: 5%;
   left: 200px;
-  bottom: -90px;
+  bottom: -130px;
 }
 .container-fluid{
   background-color: #313131;
@@ -51,13 +51,10 @@ grey letters: #ACACAC
 }
 
 .side-panel{
+  width: 15%;
+  padding: 0;
   margin-top: 30px;
-  text-align: right;
-}
-
-.dots img{
-  width: 50px;
-  margin-bottom: 20px;
+  left: 90px;
 }
 
 .hotel{
@@ -85,7 +82,7 @@ div .booking .booking-group{
   background-color: #fff;
 }
 .booking-group{
-  width: 62.5%;
+  width: 65%;
 }
 .booking-group button{
   height: 35px;

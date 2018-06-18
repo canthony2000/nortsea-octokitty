@@ -35,7 +35,7 @@ box borders #ebebeb;
 
 .card-wrapper{
   width: 135px;
-  margin:auto;
+  margin: 0 0;
   text-align: left;
 }
 
