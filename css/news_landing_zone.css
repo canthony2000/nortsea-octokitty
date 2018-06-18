@@ -91,3 +91,7 @@ article .news-read-more {
   margin-top: 2em;
   margin-bottom: 2em;
 }
+.thumbnail iframe{
+  width: 100%;
+  height: 100%;
+}
