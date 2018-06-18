@@ -1,104 +1,62 @@
-.card-wrapper{
-  width: 250px;
-  height: 300px;
-  margin: auto;
-  background: linear-gradient(to bottom right, rgb(231, 209, 106), rgb(239, 148, 0));
-  border: 1px solid red;
-}
-.card-body{
+/*------useful colors----------
+dark gray background: #363636;
+black (very dark gray) background: #313131;
+grey text: #acacac;
+gray text on dark background: #c8c8c8;
+dark gray text #464646;
+carrot text #c2c2c2;
+black: #000000;
+gold text: #c0a878;
+social media icons #d7d7d7;
+button: #7d7d7d;
+box borders #ebebeb;
+-------------------------------*/
+
+.wc-weather{
+  background: linear-gradient(to bottom right, rgb(235, 219, 142), rgb(235, 164, 22));
+  height: 200px;
+  margin-bottom: 5px;
   padding: 15px;
 }
-.card-body h3{
-  margin: 10px 0;
-  color: #fff;
-  font-family: sans-serif;
-  font-size: 20px;
-  letter-spacing: 2px;
+
+.wc-gallery{
+  background: linear-gradient(to bottom right, rgb(130, 130, 130), rgb(58, 58, 58));
+  height: 123px;
+  margin-bottom: 5px;
+  padding: 15px;
 }
-.sun-body{
-  width: 100px;
-  height: 100px;
+
+.wc-virtual-tour{
+  background: #ebebeb;
+  height: 123px;
+  padding: 15px;
+}
+
+.card-wrapper{
+  width: 160px;
   margin: auto;
-  border: 5px solid white;
-  border-radius: 50%;
-  position: relative;
-}
-.sun-body div{
-  width: 5px;
-  height: 15px;
-  /* border: 1px solid red; */
-  background-color: white;
-  position: absolute;
-}
-.one{
-  top: -30px;
-  right: 50px;
-}
-.two{
-  bottom: -30px;
-  left: 50px;
-}
-.three{
-  top: 40px;
-  left: -30px;
-  transform: rotate(90deg);
-}
-.four{
-  top: 40px;
-  right: -30px;
-  transform: rotate(90deg);
-}
-.five{
-  top: 0;
-  right: -20px;
-  transform: rotate(40deg);
-}
-.six{
-
-}
-.seven{
-
-}
-.eight{
-
 }
 
-/* .rays::after{
-  width: 5px;
-  height: 15px;
-  top: 90%;
-  right: 90%;
-  background-color: white;
-  border: 1px solid blue;
-  transform: rotate(250deg);
-}
-.rays::before{
-  width: 5px;
-  height: 15px;
-  top: 50%;
-  left: 10%;
-  background-color: white;
-  border: 1px solid green;
-}
-.rays::after,
-.rays::before {
-  width: 5px;
-  height: 15px;
-  content:"";
-  bottom: -50%;
-  position: absolute;
-  transform: rotate(90deg);
-} */
-.temp{
+.wc-weather h3{
   color: white;
-  font-family: sans-serif;
+  margin: 0px;
+  font-size: 16px;
 }
-.temp h2{
-  font-size: 1.6em;
-  letter-spacing: 2px;
-  margin-top: 10px;
+
+.wc-weather h2{
+  color: white;
+  margin: 0px;
+  font-size: 28px;
 }
-.temp h3{
-  font-size: 1.3em;
-  margin: 10px 0;
+
+.wc-gallery h3{
+  color: white;
+  margin: 0px;
+  font-size: 16px;
+}
+
+.wc-virtual-tour h3{
+  color: #757575;
+  margin: 0px;
+  font-size: 16px;
 }
