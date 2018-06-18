@@ -12,7 +12,7 @@ grey letters: #ACACAC
   width: 15%;
   height: 5%;
   left: 200px;
-  bottom: 0;
+  bottom: -120px;
 }
 .container-fluid{
   background-color: #313131;
@@ -84,7 +84,9 @@ div .booking .booking-group{
   margin-bottom: 30px;
   background-color: #fff;
 }
-
+.booking-group{
+  
+}
 .booking-group button{
   height: 35px;
   font-size: .8em;
