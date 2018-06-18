@@ -146,6 +146,16 @@ div .booking-item{
 .dropdown-header-content li > a:hover{
   color:  #BDA87E;
 }
+/* calendar in booking form */
+.calendar{
+  z-index: 1;
+}
+.calendar img{
+  display: none;
+}
+.booking-item:hover img{
+  display: block;
+}
 
 /* dropdowns in booking form */
 
