@@ -104,5 +104,5 @@ a:hover {
 }
 
 .fun-articles:hover .gold{
-	display: block;
+	display: inline-block;
 }
