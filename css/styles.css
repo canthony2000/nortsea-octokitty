@@ -10,6 +10,7 @@ gold text: #c0a878;
 social media icons #d7d7d7;
 button: #7d7d7d;
 box borders #ebebeb;
+tannish text: #BDA87E;
 -------------------------------*/
 
 /* Global resets */
@@ -87,4 +88,8 @@ a:hover {
   margin-top: 30px;
 	background-color: #313131;
 	color: #ACACAC;
+}
+
+.fun-articles-tan:hover {
+	color: #BDA87E;
 }
