@@ -13,10 +13,6 @@ box borders #ebebeb;
 burple icons #8d5ba1;
 -------------------------------*/
 
-/* .row {
-  margin-left: 0px;
-} */
-
 .ns-breadcrumb{
   text-align: right;
   margin-top: 30px;
@@ -47,6 +43,9 @@ burple icons #8d5ba1;
   font-size: 16px;
   font-weight: bold;
   padding-bottom: 10px;
+}
+.services-main-row{
+  margin-top: 30px;
 }
 
 .no-pad{
