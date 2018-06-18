@@ -90,7 +90,19 @@ a:hover {
 	color: #ACACAC;
 }
 
+.gold {
+	display: none;
+}
+
 .fun-articles:hover *{
 	color: #BDA87E;
 	transform: scale(1.1);
+}
+
+.fun-articles:hover .grey{
+	display: none;
+}
+
+.fun-articles:hover .gold{
+	display: block;
 }
