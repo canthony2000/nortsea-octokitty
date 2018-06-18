@@ -60,3 +60,25 @@ box borders #ebebeb;
   margin: 0px;
   font-size: 16px;
 }
+
+.wcard-sun{
+  margin-top: 1em;
+  margin-bottom: 1em;
+  width: 5.5em;
+}
+
+.wcard-gallery{
+  margin-top: 1.5em;
+  width: 4em;
+}
+
+.wcard-360vt{
+  margin-top: 1.5em;
+  width: 6.5em;
+}
+
+.card-wrapper img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
