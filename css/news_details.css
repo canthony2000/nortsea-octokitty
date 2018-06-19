@@ -59,7 +59,7 @@ box borders #ebebeb;
   font-size: 1.5em;
 }
 
-.news-icons .fa-facebook-square {
+.news-icons i:hover{
   color: #c0a878;
 }
 
