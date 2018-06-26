@@ -54,7 +54,7 @@ div .row-bottom:last-of-type i {
 }
 
 .envelope, .phone {
-  padding-right: 20px;
+  /* padding-right: 20px; */
   font-size: 12px;
 }
 
